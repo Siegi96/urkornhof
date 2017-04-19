@@ -12,9 +12,9 @@ body{
     padding-top: 15px;
 }
 
-.col-xs-4{
+/*.col-xs-4{
     padding-left: 0px;
-}
+}*/
 
 
     /*Icons im Header*/
@@ -41,11 +41,13 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 /*Logo*/
 .Logo{
-    width: 100px;
+    width: 80px;
 }
 
 /*Hamburger Menu*/
