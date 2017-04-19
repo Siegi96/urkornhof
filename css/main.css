@@ -1,10 +1,16 @@
 /*Main CSS*/
-.icon_header{
+
+/********Header**********/
+.header{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
+
+/*Icons im Header*/
 .shoppingcart{
     background-color: #70a039;
     width: 50px;
@@ -22,4 +28,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.icon_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*Logo*/
+.Logo{
+    width: 100px;
+}
+
+/*Hamburger Menu*/
+.menu{
+    width: 50px;
+}
+
+.menu_header{
+    text-align: center;
 }
