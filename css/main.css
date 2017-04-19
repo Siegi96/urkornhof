@@ -1,5 +1,8 @@
 /*Main CSS*/
-
+body{
+    top:0;
+    left:0;
+}
 /********Header**********/
 .header{
     display: flex;
@@ -9,8 +12,12 @@
     padding-top: 15px;
 }
 
+.col-xs-4{
+    padding-left: 0px;
+}
 
-/*Icons im Header*/
+
+    /*Icons im Header*/
 .shoppingcart{
     background-color: #70a039;
     width: 50px;
