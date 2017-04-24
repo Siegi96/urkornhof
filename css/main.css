@@ -62,3 +62,46 @@ body{
 .menu_header{
     text-align: center;
 }
+
+/*footer*/
+.lebenskraft{
+    height: 50px;
+    background-color: #70a039;
+    text-align: center;
+    font-family: BigMisterC;
+    font-size: 40px;
+    color: white;
+}
+#Le{
+    color: #f0b300
+}
+.links{
+    background-color: #816243;
+    color: white;
+}
+.first, .second{
+    height: 40px;
+}
+.first div:first-child, .second div:first-child{
+    text-align: end;
+}
+.first div:nth-child(2), .second div:nth-child(2){
+    text-align: center;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    margin:0px;
+}
+
+.socialMedia div:nth-child(2){
+    margin-top: -10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*Lebenskraft-Font*/
+@font-face {
+    font-family: "BigMisterC";
+    src: url('../fonts/Bigmcn__.ttf');
+}
