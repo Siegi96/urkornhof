@@ -65,6 +65,11 @@ body{
     text-align: center;
 }
 
+.ursaatPicture{
+    background-image: image(media/Hirse.jpg);
+}
+
+
 /*footer*/
 .lebenskraft{
     height: 50px;
