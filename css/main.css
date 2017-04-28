@@ -7,7 +7,7 @@ body{
 .header{
     display: flex;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #b02a20;
     padding-bottom: 15px;
     padding-top: 15px;
 }
@@ -98,6 +98,11 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+#ursaat{
+    width: 100%;
+}
+
 
 
 /*Lebenskraft-Font*/
