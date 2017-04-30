@@ -261,3 +261,29 @@ a, a:hover{
 .second_menu div a{
     color: white;
 }
+
+
+/*********search**********/
+.searchBar{
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid black;
+    height: 70px;
+    display: none;
+}
+
+input.search_input{
+    float:left;
+    font-size:15px;
+    line-height:34px;
+    margin-right:12px;
+    margin-left: 12px;
+    outline:medium none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.fa-search, .fa-times-circle{
+    color: #fbba00;
+}

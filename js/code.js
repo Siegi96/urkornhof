@@ -3,6 +3,7 @@
  */
 /******Menü************/
 var open = false;
+var search = false;
 
 function Menu(){
     if(open){
@@ -64,4 +65,24 @@ $('.show_second_menu').click(function(){
 
 $(".second_menu div:last-child").css("border-bottom", "none");
 
+/***********search**************/
+function Search_bar(){
+    if (search){
+        $(".searchBar").css("display", "none");
+        search = false;
+    }
+    else{
+        $(".searchBar").css("display", "flex");
+        search = true;
+    }
+}
+
+function removeSearch(){
+    $(".searchBar").css("display", "none");
+    search = false;
+}
+
+$('.search').click(Search_bar);
+
+$('.fa-times-circle').click(removeSearch);
 
