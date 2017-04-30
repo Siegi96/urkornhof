@@ -64,6 +64,7 @@ $('.show_second_menu').click(function(){
 });
 
 $(".second_menu div:last-child").css("border-bottom", "none");
+$(".downMenu div div:last-child").css("border-bottom", "none");
 
 /***********search**************/
 function Search_bar(){

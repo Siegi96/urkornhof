@@ -146,10 +146,6 @@ body{
     padding: 12px;
 }
 
-.downMenu>div>div:last-child{
-    bordor-bottom:none;
-}
-
 a, a:hover{
     text-decoration: none;
     color: black;
