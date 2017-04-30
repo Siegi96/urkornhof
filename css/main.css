@@ -22,18 +22,18 @@ body{
 /*Icons im Header*/
 .shoppingcart{
     background-color: #70a039;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .search{
     background-color: #fbba00;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -285,6 +285,11 @@ input.search_input{
     box-sizing: border-box;
 }
 
-.fa-search, .fa-times-circle{
+.fa-search-second, .fa-times-circle{
     color: #fbba00;
 }
+
+.fa-shopping-cart, .fa-search-first{
+    color: white;
+}
+
