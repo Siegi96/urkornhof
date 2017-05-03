@@ -293,3 +293,20 @@ input.search_input{
     color: white;
 }
 
+.fa-shopping-cart{
+    margin-right: 2px;
+}
+
+.fa-search-first{
+    margin-bottom: 2px;
+}
+
+.searchBar_icons {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
