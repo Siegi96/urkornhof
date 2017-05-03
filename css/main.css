@@ -43,8 +43,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 /*Logo*/
@@ -96,7 +96,7 @@ body{
     text-align: center;
     border-left: 1px solid white;
     border-right: 1px solid white;
-    margin:0px;
+    margin:0;
 }
 
 .socialMedia div:nth-child(2){
@@ -213,7 +213,7 @@ a, a:hover{
 }
 
 #nav-icon1 span:nth-child(1) {
-    top: 0px;
+    top: 0;
 }
 
 #nav-icon1 span:nth-child(2) {
@@ -250,7 +250,7 @@ a, a:hover{
 /********second menu********/
 .downMenu>div>div.second_menu{
     display: none;
-    padding:0px;
+    padding:0;
 }
 
 .second_menu div{

@@ -1,0 +1,59 @@
+/*   Inhaltsseite stylen */
+/* Allgemeines */
+.content-page {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.content {
+    margin-bottom: 8px;
+}
+
+/*  Überschriften  */
+h1 {
+    font-weight: 500;
+    color: white;
+    font-size: 2.1em;
+    font-family: BigMisterC;
+}
+.contentHeader {
+    background-color: #fbba00;
+}
+/* 3Eck unter h1 (darunter Bild!)*/
+.dreieck {
+    width: 0;
+    height: 0;
+    border-bottom: 40px solid #fbba00;
+    border-left: 40px solid transparent;
+    position: absolute;
+    bottom: -19px;
+    left: 20px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.05);
+    z-index: 100;
+    transform: rotate(45deg);
+}
+/*  Unterüberschriften stylen*/
+h2 {
+    font-weight: 400;
+    color: #fbba00;
+    font-size: 1.8em;
+    font-family: BigMisterC;
+}
+/* breadcrumbs*/
+.breadcrumbs {
+    color: #fbba00;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+/* bild nach h1*/
+#hof {
+    background-image: url("../media/hof.jpeg");
+    background-repeat: no-repeat;
+    width: 120%;
+    height: auto;
+    margin: 0 0 8px -15px;
+}
