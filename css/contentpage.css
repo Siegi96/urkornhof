@@ -1,3 +1,8 @@
+body {
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: 300;
+}
+
 /*   Inhaltsseite stylen */
 /* Allgemeines */
 .content-page {
@@ -16,7 +21,7 @@ h1 {
     font-weight: 500;
     color: white;
     font-size: 2.1em;
-    font-family: BigMisterC;
+    font-family: BigMisterC, serif;
 }
 .contentHeader {
     background-color: #fbba00;
@@ -39,7 +44,11 @@ h2 {
     font-weight: 400;
     color: #fbba00;
     font-size: 1.8em;
-    font-family: BigMisterC;
+    font-family: BigMisterC, sans-serif;
+}
+@font-face {
+    font-family: "BigMisterC";
+    src: url('../fonts/Bigmcn__.ttf');
 }
 /* breadcrumbs*/
 .breadcrumbs {
@@ -50,10 +59,54 @@ h2 {
 }
 
 /* bild nach h1*/
-#hof {
-    background-image: url("../media/hof.jpeg");
+.headerBilder {
     background-repeat: no-repeat;
-    width: 120%;
+    width: 100vw;
     height: auto;
     margin: 0 0 8px -15px;
 }
+
+#hofladen, .marcel{
+    width: 90vw;
+    align-content: center;
+    margin-top: 5px;
+}
+
+.ohneFoto {
+    margin-bottom: 30px;
+}
+
+/* ------ Kooperationen -------- */
+.link_zu_partner {
+    color: #fbba00;
+    font-size: larger;
+}
+
+.kooperationen_logo_div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.kooperationen_logo {
+    width: 100%;
+}
+
+.trennstrich {
+    background-color: #fbba00;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.bold {
+    font-weight: 800;
+}
+/* ???????????? */
+.center {
+    text-align: center;
+}
+
+
+
+
