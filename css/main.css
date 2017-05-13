@@ -39,6 +39,7 @@ body{
     align-items: center;
 }
 
+
 .icon_header{
     display: flex;
     flex-direction: row;
@@ -310,6 +311,112 @@ input.search_input{
     justify-content: center;
 }
 
+/*********Header_Display************/
+
+a, a:hover{
+    text-decoration: none;
+    color: black;
+    font-family: "Myriad Pro";
+}
+
+.menu_display a{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.menu_display{
+    display: flex;
+    justify-content: center;
+}
+
+
+.Logo_display{
+    width: 120px;
+    margin-top: 35px;
+}
+
+.top_line_header{
+    z-index: -1;
+    position:absolute;
+    left:0;
+    margin-top: 44px;
+    border-bottom: 1px solid black;
+}
+
+.buttom_line_header{
+    z-index: -1;
+    position:absolute;
+    left:0;
+    margin-top: 126px;
+    border-bottom: 1px solid black;
+}
+
+@media (max-width: 1000px) {
+    .display, .display_footer {
+        display: none !important;
+    }
+    .header{
+        display: flex;
+    }
+    .mobile_footer{
+        display: inherit;
+    }
+}
+
+@media (min-width: 1000px) {
+    .display {
+        display: flex;
+    }
+    .display_footer{
+        display: inherit;
+    }
+    .mobile_footer{
+        display: none !important;
+    }
+    .header{
+        display: none !important;
+    }
+}
+
+.header_display{
+    display: flex;
+    align-items: center;
+    /*background-color: white;*/
+}
+
+.header_display>div{
+    margin-top: 0px;
+}
+
+.social_Media_display{
+    display: flex;
+    justify-content: space-around;
+}
+.social_Media_display img{
+    margin-top: -5px;
+}
+
+.display_footer.first{
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 8.33%;
+}
+.display_footer div:nth-child(2), .display_footer div:nth-child(3),.display_footer div:nth-child(4),
+.display_footer div:nth-child(6), .display_footer div:nth-child(7), .display_footer div:nth-child(8){
+    display: flex;
+    justify-content: center;
+}
+
+.display_footer div:nth-child(3),
+.display_footer div:nth-child(7){
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    margin:0;
+}
+
+.display_footer div:nth-child(2){
+    border: none !important;
+}
 
 
 
