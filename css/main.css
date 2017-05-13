@@ -418,6 +418,21 @@ a, a:hover{
     border: none !important;
 }
 
+/*
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    display: none;
+    margin-top: 100px;
+}
+li { float:left; padding:0; margin:0;}
+li a { width:150px; display:block; text-align:center; color:#000; margin-right:5px; height:35px; line-height:35px; text-decoration:none; font-size:80%; border:1px solid #ccc; }
+li a:hover { color:#f00; }
+ul ul { display:none; position:absolute; z-index:999; }
+li li { float:none; }
+li li a { background:#EBE7E6!important; text-align:left; height:auto; line-height:1; width:auto; padding:8px 20px 8px 22px; border:1px solid #D0D0D0; border-top:none; margin-right:0; }
+* html li li { display:inline; }
 
-
+*/
 
