@@ -375,6 +375,9 @@ a, a:hover{
     .header{
         display: none !important;
     }
+    .searchBar{
+        margin-top: -47px;
+    }
 }
 
 .header_display{
