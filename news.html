@@ -11,7 +11,56 @@
 </head>
 <body>
 <div class="container-fluid">
-    <!--Header-->
+    <!--Header desplay-->
+    <div class="row display">
+        <div class="top_line_header col-md-12"></div>
+        <div class="buttom_line_header col-md-12"></div>
+        <div class="header_display col-md-12">
+            <div class="col-md-2 logo_header_display"><a href="index.html"><img class="Logo_display" src="media/logo_urkornhof.png" alt="Logo-Urkornhof"/></a></div>
+            <div class="col-md-1 menu_display menu_shop"><a href="#">Shop</a></div>
+            <div class="col-md-2 menu_display menu_about dropdown">
+                <a href="hofladen.html">Über Uns</a>
+                <div class="dropdown-content">
+                    <a href="hofladen.html">Hofladen</a>
+                    <a href="philosophie.html">Unsere Philosophie</a>
+                    <a href="kooperationen.html">Kooperation</a>
+                    <a href="#">Sponsering</a>
+                </div>
+            </div>
+            <div class="col-md-1 actual menu_display menu_news dropdown">
+                <a href="#">News</a>
+                <div class="dropdown-content">
+                    <a href="news.html">Neuigkeiten</a>
+                    <a href="#">Newsletter</a>
+                </div>
+            </div>
+
+
+            <div class="col-md-2 menu_display menu_tipps dropdown">
+                <a href="#">Tipps & Tricks</a>
+                <div class="dropdown-content">
+                    <a href="#">Produkt der Woche</a>
+                    <a href="#">Konfigurator</a>
+                    <a href="#">Rezepte</a>
+                </div>
+            </div>
+            <div class="col-md-1 menu_display menu_kontakt"><a href="kontakt.html">Kontakt</a></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-2 icon_header">
+
+                <div class="search search_search">
+                    <i class="fa fa-search fa-search-first fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="search_person">
+                    <i class="fa fa-user fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="search_cart">
+                    <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Header mobile-->
     <div class="row header">
         <div class="col-xs-1"></div>
         <div class="col-xs-3 menu" id="nav-icon1">
@@ -19,7 +68,7 @@
             <span></span>
             <span></span>
         </div>
-        <div class="col-xs-4 logo_header"><img class="Logo" src="media/logo_urkornhof.png" alt="Logo-Urkornhof"/></div>
+        <div class="col-xs-4 logo_header"><a href="index.html"><img class="Logo" src="media/logo_urkornhof.png" alt="Logo-Urkornhof"/></a></div>
         <div class="col-xs-4 icon_header">
             <div class="shoppingcart">
                 <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
@@ -41,6 +90,7 @@
         </div>
         <input class="search_input col-xs-8" placeholder="Search" type=search>
         <div class="col-xs-2 searchBar_icons">
+            <i class="fa fa-search fa-search-display  fa-2x" aria-hidden="true"></i>
             <i class="fa fa-times-circle  fa-2x" aria-hidden="true"></i>
         </div>
     </div>
@@ -62,28 +112,28 @@
             <!---------Über Uns-------->
             <div class="row">
                 <a class="col-xs-2"></a>
-                <a class="col-xs-8 menu_point">Über Uns</a>
+                <a href="hofladen.html" class="col-xs-8 menu_point">Über Uns</a>
                 <a class="col-xs-2 show_second_menu" id="show_About">+</a>
             </div>
             <!--------Untermenü--------->
             <div class="row second_menu second_menu_About">
                 <div class="row">
-                    <a class="col-xs-12 second_menu_point">Hofladen</a>
+                    <a href="hofladen.html" class="col-xs-12 second_menu_point">Hofladen</a>
                 </div>
                 <div class="row">
-                    <a class="col-xs-12 second_menu_point">Unsere Philosophie</a>
+                    <a href="philosophie.html" class="col-xs-12 second_menu_point">Unsere Philosophie</a>
                 </div>
                 <div class="row">
-                    <a class="col-xs-12 second_menu_point">Kooperation</a>
+                    <a href="kooperationen.html" class="col-xs-12 second_menu_point">Kooperation</a>
                 </div>
                 <div class="row">
-                    <a class="col-xs-12 second_menu_point">Sponsering</a>
+                    <a href="sponsering" class="col-xs-12 second_menu_point">Sponsering</a>
                 </div>
             </div>
             <!-----------News------------->
             <div class="row">
                 <a class="col-xs-2"></a>
-                <a class="col-xs-8 menu_point">News</a>
+                <a href="news.html" class="col-xs-8 menu_point">News</a>
                 <a class="col-xs-2 show_second_menu" id="show_News">+</a>
             </div>
             <!----------Untermenü-------->
@@ -116,7 +166,7 @@
             <!-----------Kontakt----------->
             <div class="row">
                 <a class="col-xs-2"></a>
-                <a class="col-xs-8 menu_point">Kontakt</a>
+                <a href="kontakt.html" class="col-xs-8 menu_point">Kontakt</a>
                 <a class="col-xs-2"></a>
             </div>
             <div class="row">
@@ -127,6 +177,7 @@
             </div>
         </div>
     </div>
+
 
     <!--Content-->
     <div class="row content">
@@ -165,7 +216,7 @@
         </div>
         <div class="row newssearch">
             <div class="col-xs-12">
-                <input type="text" name="search" placeholder="Suche..">
+                <input class="search_news" type="text" name="search" placeholder="Suche..">
             </div>
         </div>
         <div class ="row news">
