@@ -303,6 +303,38 @@ a, a:hover{
 .products a{
 
 }
+/*Ursaat Picture*/
+/* Ursaat Picture*/
+.ursaatPicture{
+    background-image: url(../media/Hirse.jpg);
+    width: 100%;
+    height: 183px;
+    color:white;
+    padding-top: 1px;
+    text-align: right;
+}
+.ursaatText {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ursaatPicture button{
+    background-color:#f0b300;
+    border: 0;
+    margin-right: 30px;
+}
+
+.ursaatPicture h1{
+    font-size: 35px;
+}
+
+.ursaatPicture p{
+    font-size: 20px;
+    left: 50px;
+}
+
 
 /*Startseite News*/
 .news{
