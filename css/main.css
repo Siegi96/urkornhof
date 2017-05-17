@@ -81,10 +81,10 @@ body{
     color: white;
 }
 #Le{
-    color: #f0b300;
+    color: #fbba00;
 }
 .links{
-    background-color: #816243;
+    background-color: #fbba00;
     color: white;
 }
 .first, .second{
@@ -530,13 +530,13 @@ a, a:hover{
 
 /*featured Products*/
 .featuredProducts{
-    border-bottom: 1px solid #f0b300;
+    border-bottom: 1px solid #fbba00;
     margin-left: 30px;
     margin-right: 30px;
 }
 .featuredProducts h1{
-    color: #f0b300;
-    border-bottom: 1px solid #f0b300;
+    color: #fbba00;
+    border-bottom: 1px solid #fbba00;
     /*margin-left: 10px;*/
     /*margin-right: 10px;*/
     font-size: 25px;
@@ -546,7 +546,7 @@ a, a:hover{
     text-align: right;
     height: 100px;
     align-items: center;
-    color: #f0b300;
+    color: #fbba00;
     font-size: 40px;
 }
 .products{
@@ -581,7 +581,7 @@ a, a:hover{
 }
 
 .ursaatPicture button{
-    background-color:#f0b300;
+    background-color:#fbba00;
     border: 0;
     margin-right: 30px;
 }
@@ -606,7 +606,7 @@ a, a:hover{
 .newsWrapper{
     margin: 0 auto;
     width: 90%;
-    background-color: #f0b300;
+    background-color: #fbba00;
     padding-bottom: 10px;
 
 }
@@ -633,7 +633,7 @@ a, a:hover{
     padding-top: 10px;
     font-family: BigMisterC;
     font-weight: bolder;
-    color: #f0b300;
+    color: #fbba00;
 
 }
 
@@ -642,15 +642,15 @@ a, a:hover{
 /*breadcrumbs*/
 .breadcrumbs{
     height: 03vh;
-    color: #f0b300;
+    color: #fbba00;
     display: flex;
     text-align: center;
 }
 /*selectboxes*/
 .row select,.row .search_news{
     background-color: white;
-    border: 1px solid #f0b300;
-    color: #f0b300;
+    border: 1px solid #fbba00;
+    color: #fbba00;
     width: 90vw;
     height: 35px;
     margin: 0 5vw 1vh 5vw;
