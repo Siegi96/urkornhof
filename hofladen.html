@@ -5,6 +5,9 @@
     <title>Hofladen</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="font-awesome-4.7.0%202/css/font-awesome.min.css">
@@ -150,56 +153,83 @@
         </div>
     </div>
 
-    <div class="row content">
+    <div class="row content content-fluid">
         <div class="row breadcrumbs content-page"> <!-- Breadcrumbs -->
-            <div class="col-xs-12">Über uns > Hofladen</div>
+            <div class="col-xs-12 hidden-md-up">Über uns > Hofladen</div>
+            <div class="col-md-12 hidden-xs-down"> <div class="abstand"></div></div>
         </div>
-        <div class = "row contentHeader content-page"> <!-- Überschrift -->
-            <div class="col-xs-12 ">
-                <h1>Unser Hofladen</h1>
-                <div class="dreieck"></div>
+        <div class = "row content-page backgroundHeader"> <!-- Überschrift -->
+            <div class="col-xs-12 hidden-md-up">
+                <div class="contentHeaderXS">
+                    <h1 class="h1XS">Unser Hofladen</h1>
+                    <div class="dreieckXS"></div>
+                </div>
             </div>
-        </div>
-        <div class="row content-page ">
-            <div class="col-xs-12">
-                <img src="media/hofladen.JPG" alt="Hofladen" class="headerBilder"/>
+            <div class="col-xs-12 hidden-md-up">
+                <img src="media/hofladen.JPG" alt="Hofladen" class="headerBilderXS"/>
+            </div>
+
+            <div class="col-md-6 hidden-xs-down">
+                <div class="contentHeaderMD">
+                    <h1 class="h1MD">Unser Hofladen</h1>
+                    <div class="dreieckMD"></div>
+                </div>
+            </div>
+            <div class="col-md-6 hidden-xs-down">
+                <img src="media/hofladen.JPG" alt="Hofladen" class="headerBilderMD"/>
             </div>
         </div>
         <div class="row content-page">
-            <div class="col-xs-12 content-text">
-                <p>
-                    Unser kleiner feiner Hofladen. Mitten im Geschehen.
-                    Durch die professionelle Beratung die Sie hier bekommen, werden Sie
-                    sich fragen <span class="bold">"Wieso bin ich nicht schon früher hier her gefahren?".</span><br/>
-                    Wir haben nicht die Antwort aber ein Wissen rund um unsere Produkte
-                    und deren GUTEN Eigenschaften. Überzeugen Sie sich selbst, Sie werden
-                    garantiert davon profitieren. Hier werden Sie stets eine gute Beratung
-                    finden zudem noch freundlich, fröhlich und immer perfekt informiert
-                    über unsere neuesten Produkte und deren Wirkung.
-                </p><p>
-                Kommen Sie einfach und überzeugen Sie sich am besten selbst...
+            <div class="col-md-2"></div>
+            <div class="col-xs-12 col-md-8">
+                <div class="content-text">
+                    <p>
+                        Unser kleiner feiner Hofladen. Mitten im Geschehen.
+                        Durch die professionelle Beratung die Sie hier bekommen, werden Sie
+                        sich fragen <span class="bold">"Wieso bin ich nicht schon früher hier her gefahren?".</span><br/>
+                        Wir haben nicht die Antwort aber ein Wissen rund um unsere Produkte
+                        und deren GUTEN Eigenschaften. Überzeugen Sie sich selbst, Sie werden
+                        garantiert davon profitieren. Hier werden Sie stets eine gute Beratung
+                        finden zudem noch freundlich, fröhlich und immer perfekt informiert
+                        über unsere neuesten Produkte und deren Wirkung.
+                    </p><p>
+                    Kommen Sie einfach und überzeugen Sie sich am besten selbst...
                 </p>
+                </div>
             </div>
         </div>
-        <div class="row content-page">
-            <div class="col-xs-12"><h2>Unsere Öffnungszeiten</h2></div>
+        <div class="row content-page"> <!-- Automatisch im XS auch!-->
+            <div class="col-md-2"></div>
+            <div class="col-md-8 orange"><hr/></div>
         </div>
         <div class="row content-page">
-            <div class="col-xs-12">
+            <div class="col-xs-12 hidden-md-up"><h2 class="h2XS">Unsere Öffnungszeiten</h2></div>
+            <div class="col-md-12 hidden-xs-down"><h2 class="h2MD">Unsere Öffnungszeiten</h2></div>
+        </div>
+        <div class="row content-page">
+            <div class="col-xs-12 hidden-md-up">
                 <p>
-                Montag: 9:00 - 17:00 <br/>
-                Dienstag: 9:00 - 19:00 <br/>
-                Mittwoch: 9:00 - 17:00 <br/>
-                Donnerstag: 9:00 - 17:00 <br/>
-                Freitag: 9:00 - 17:00 <br/>
+                    Montag: 9:00 - 17:00 <br/>
+                    Dienstag: 9:00 - 19:00 <br/>
+                    Mittwoch: 9:00 - 17:00 <br/>
+                    Donnerstag: 9:00 - 17:00 <br/>
+                    Freitag: 9:00 - 17:00 <br/>
                 </p><p>
                 In unseren Öffnungszeiten stehen wir Ihnen gerne mit Rat und Tat zur verfügung!
-                </p>
+            </p>
             </div>
-        </div>
-        <div class="row content-page ">
-            <div class="col-xs-12">
-                <img src="media/hofladen2.png" alt="Hofladen Damen" id="hofladen"/>
+            <div class="col-md-12 hidden-xs-down">
+                <div class="centerMD">
+                    <p>
+                        Montag: 9:00 - 17:00 <br/>
+                        Dienstag: 9:00 - 19:00 <br/>
+                        Mittwoch: 9:00 - 17:00 <br/>
+                        Donnerstag: 9:00 - 17:00 <br/>
+                        Freitag: 9:00 - 17:00 <br/>
+                    </p><p>
+                    In unseren Öffnungszeiten stehen wir Ihnen gerne mit Rat und Tat zur verfügung!
+                </p>
+                </div>
             </div>
         </div>
     </div>
