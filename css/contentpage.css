@@ -81,7 +81,16 @@
     transform: rotate(-45deg);
 }
 /*  Unterüberschriften stylen*/
-h2 {
+.h2MD {
+    margin-top: 10px;
+    font-weight: 400;
+    color: #fbba00;
+    font-size: 1.8em;
+    font-family: BigMisterC, sans-serif;
+}
+
+.h2XS {
+    margin-top: 10px;
     font-weight: 400;
     color: #fbba00;
     font-size: 1.8em;
