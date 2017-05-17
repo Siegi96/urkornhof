@@ -730,20 +730,12 @@ input.search_input:focus{
 }
 
 /******************Kontakt********************/
-
-.add_width{
-    width: 90%;
-    margin:auto;
-}
-
 .google_maps_card{
     margin-top: 35px !important;
-    margin: auto;
+    margin:auto;
 }
 .descriptiontext{
     margin-top: 50px;
-    width: 90%;
-    margin:auto;
 }
 
 .descriptiontext p{
@@ -763,11 +755,11 @@ input.search_input:focus{
 
 .contact_information{
     margin-top: 30px !important;
-    margin: auto;
 }
 
 .contact_information p{
     font-size: 16px;
+    margin-left: 15px;
 }
 
 p.opening_hours, .write_message p{
@@ -775,17 +767,6 @@ p.opening_hours, .write_message p{
 }
 
 /*********form*********/
-.write_message{
-    width: 90%;
-    margin:auto;
-    padding-left: 15px;
-}
-
-.form_main{
-    width:90%;
-    margin: auto
-}
-
 .form_main p{
     padding-left: 0px;
 }
@@ -849,7 +830,7 @@ p.opening_hours, .write_message p{
 
     float:left;
     width: 200px;
-    border: white solid 4px;
+    border: #fbba00 solid 4px;
     cursor:pointer;
     color: white;
     background-color: #fbba00;
