@@ -107,8 +107,12 @@ body{
     justify-content: space-between;
 }
 
-#ursaat{
+#ursaat {
     width: 100%;
+}
+
+.footer .fa-instagram, .footer .fa-facebook{
+    color: white;
 }
 
 
@@ -176,6 +180,11 @@ a, a:hover{
 
 .second_menu div{
     text-align: left;
+}
+
+.social_media_menu_mobile{
+    display: flex;
+    justify-content: space-between;
 }
 
 
