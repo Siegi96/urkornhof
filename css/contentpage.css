@@ -1,3 +1,9 @@
+body {
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
 /*   Inhaltsseite stylen */
 /* Allgemeines */
 .content-page {
@@ -40,12 +46,17 @@
     margin-left: 25%;
 }
 
+.marginTopMinus {
+    margin-top: -18% !important;
+}
+
 .contentHeaderXS {
     width: 110%;
     margin-top: 0;
 }
 
 .content-text {
+    margin-top: 10px;
     width: 100%;
 }
 
@@ -96,6 +107,7 @@
     font-size: 1.8em;
     font-family: BigMisterC, sans-serif;
 }
+
 @font-face {
     font-family: "BigMisterC";
     src: url('../fonts/Bigmcn__.ttf');
@@ -113,7 +125,7 @@
     background-repeat: no-repeat;
     width: 110% ;
     height: auto;
-    margin: 0 0 0 0 ;
+    /*margin-bottom: 10px;*/
 }
 
 .headerBilderXS {
@@ -123,9 +135,9 @@
     margin: 0 0 0 -15px;
     z-index: 1;
 }
-
-#hofladen, .marcel{
-    width: 90vw;
+/*#hofladen,*/
+.marcel {
+    width: 100%;
     align-content: center;
     margin-top: 5px;
 }
@@ -161,6 +173,16 @@
 .bold {
     font-weight: 800;
 }
+
+.italic {
+    font-style: italic;
+}
+
+.centerFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* öffnungszeiten text zentrieren */
 .centerMD, .h2MD {
     text-align: center;
@@ -179,3 +201,6 @@
 .spaceTop {
     margin-top: 10px;
 }
+
+
+
