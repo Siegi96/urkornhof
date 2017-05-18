@@ -727,6 +727,7 @@ a, a:hover{
     border-bottom: 1px solid black;
     height: 70px;
     display: none;
+    margin-bottom: 47px;
 }
 
 input.search_input{

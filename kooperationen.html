@@ -20,20 +20,43 @@
         <div class="header_display col-md-12">
             <div class="col-md-2 logo_header_display"><a href="index.html"><img class="Logo_display" src="media/logo_urkornhof.png" alt="Logo-Urkornhof"/></a></div>
             <div class="col-md-1 menu_display menu_shop"><a href="#">Shop</a></div>
-            <div class="col-md-2 menu_display menu_about"><a href="hofladen.html">Über Uns</a></div>
-            <div class="col-md-1 menu_display menu_news"><a href="#">News</a></div>
-            <div class="col-md-2 menu_display menu_tipps"><a href="#">Tipps & Tricks</a></div>
-            <div class="col-md-1 menu_display menu_kontakt"><a href="#">Kontakt</a></div>
+            <div class="col-md-2 menu_display menu_about dropdown">
+                <a href="hofladen.html">Über Uns</a>
+                <div class="dropdown-content">
+                    <a href="hofladen.html">Hofladen</a>
+                    <a href="philosophie.html">Unsere Philosophie</a>
+                    <a href="kooperationen.html">Kooperation</a>
+                    <a href="sponsering.html">Sponsering</a>
+                </div>
+            </div>
+            <div class="col-md-1 actual menu_display menu_news dropdown">
+                <a href="news.html">News</a>
+                <div class="dropdown-content">
+                    <a href="news.html">Neuigkeiten</a>
+                    <a href="news.html">Newsletter</a>
+                </div>
+            </div>
+
+
+            <div class="col-md-2 menu_display menu_tipps dropdown">
+                <a href="konfigurator.html">Tipps & Tricks</a>
+                <div class="dropdown-content">
+                    <!--a href="#">Produkt der Woche</a-->
+                    <a href="konfigurator.html">Konfigurator</a>
+                    <a href="rezepte.html">Rezepte</a>
+                </div>
+            </div>
+            <div class="col-md-1 menu_display menu_kontakt"><a href="kontakt.html">Kontakt</a></div>
             <div class="col-md-1"></div>
             <div class="col-md-2 icon_header">
-                <div class="shoppingcart">
+                <div class="search search_search">
+                    <i class="fa fa-search fa-search-first fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="search_person">
+                    <i class="fa fa-user fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="search_cart">
                     <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
-                </div>
-                <div class="search">
-                    <i class="fa fa-search fa-search-first fa-2x" aria-hidden="true"></i>
-                </div>
-                <div class="search">
-                    <i class="fa fa-search fa-search-first fa-2x" aria-hidden="true"></i>
                 </div>
             </div>
         </div>
@@ -63,9 +86,14 @@
 
     <!--SearchBar-->
     <div class="searchBar row">
-        <i class="fa fa-search fa-search-second col-xs-2 fa-2x" aria-hidden="true"></i>
-        <input class="search_input col-xs-8" placeholder="Search" type=search>
-        <i class="fa fa-times-circle col-xs-2 fa-2x" aria-hidden="true"></i>
+        <div class="col-xs-2 searchBar_icons">
+            <i class="fa fa-search fa-search-second fa-2x" aria-hidden="true"></i>
+        </div>
+        <input class="search_input col-xs-7" placeholder="Search" type=search>
+        <div class="col-xs-2 searchBar_icons">
+            <i class="fa fa-search fa-search-display  fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-times-circle  fa-2x" aria-hidden="true"></i>
+        </div>
     </div>
 
     <!--Menu-->
@@ -85,67 +113,69 @@
             <!---------Über Uns-------->
             <div class="row">
                 <a class="col-xs-2"></a>
-                <a class="col-xs-8 menu_point">Über Uns</a>
+                <a href="hofladen.html" class="col-xs-8 menu_point">Über Uns</a>
                 <a class="col-xs-2 show_second_menu" id="show_About">+</a>
             </div>
             <!--------Untermenü--------->
             <div class="row second_menu second_menu_About">
                 <div class="row">
-                    <a class="col-xs-12 second_menu_point">Hofladen</a>
+                    <a href="hofladen.html" class="col-xs-12 second_menu_point">Hofladen</a>
                 </div>
                 <div class="row">
-                    <a class="col-xs-12 second_menu_point">Unsere Philosophie</a>
+                    <a href="philosophie.html" class="col-xs-12 second_menu_point">Unsere Philosophie</a>
                 </div>
                 <div class="row">
-                    <a class="col-xs-12 second_menu_point">Kooperation</a>
+                    <a href="kooperationen.html" class="col-xs-12 second_menu_point">Kooperation</a>
                 </div>
                 <div class="row">
-                    <a class="col-xs-12 second_menu_point">Sponsering</a>
+                    <a href="sponsering" class="col-xs-12 second_menu_point">Sponsering</a>
                 </div>
             </div>
             <!-----------News------------->
             <div class="row">
                 <a class="col-xs-2"></a>
-                <a class="col-xs-8 menu_point">News</a>
+                <a href="news.html" class="col-xs-8 menu_point">News</a>
                 <a class="col-xs-2 show_second_menu" id="show_News">+</a>
             </div>
             <!----------Untermenü-------->
-            <div class="row second_menu second_menu_News">
+            <div class="row second_menu second_menu_News" href="news.html">
                 <div class="row">
-                    <a class="col-xs-12 second_menu_point">Neuigkeiten</a>
+                    <a href="news.html" class="col-xs-12 second_menu_point" href="news.html">Neuigkeiten</a>
                 </div>
                 <div class="row">
-                    <a class="col-xs-12 second_menu_point">Newsletter</a>
+                    <a class="col-xs-12 second_menu_point" href="news.html">Newsletter</a>
                 </div>
             </div>
             <!--------------Tipps-------------->
             <div class="row">
                 <a class="col-xs-2"></a>
-                <a class="col-xs-8 menu_point">Tipps&Tricks</a>
+                <a class="col-xs-8 menu_point" href="konfigurator.html">Tipps&Tricks</a>
                 <a class="col-xs-2 show_second_menu" id="show_Tipps">+</a>
             </div>
             <!-----------Untermenü-------------->
             <div class="row second_menu second_menu_Tipps">
-                <div class="row">
+                <!--div class="row">
                     <a class="col-xs-12 second_menu_point">Produkt der Woche</a>
+                </div-->
+                <div class="row">
+                    <a href="konfigurator.html" class="col-xs-12 second_menu_point">Konfigurator</a>
                 </div>
                 <div class="row">
-                    <a class="col-xs-12 second_menu_point">Konfigurator</a>
-                </div>
-                <div class="row">
-                    <a class="col-xs-12 second_menu_point">Rezepte</a>
+                    <a class="col-xs-12 second_menu_point" href="rezepte.html">Rezepte</a>
                 </div>
             </div>
             <!-----------Kontakt----------->
             <div class="row">
                 <a class="col-xs-2"></a>
-                <a class="col-xs-8 menu_point">Kontakt</a>
+                <a href="kontakt.html" class="col-xs-8 menu_point">Kontakt</a>
                 <a class="col-xs-2"></a>
             </div>
             <div class="row">
                 <div class="col-xs-3"></div>
-                <div class="col-xs-3"><img class="facebook" src="media/002-facebook-logo-button.png" alt="Logo-Facebook"/></div>
-                <div class="col-xs-3"><img class="instagram" src="media/001-instagram-logo.png" alt="Logo-Instagram"/></div>
+                <div class="col-xs-6 social_media_menu_mobile">
+                    <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                </div>
                 <div class="col-xs-3"></div>
             </div>
         </div>
@@ -154,7 +184,7 @@
     <div class="row content content-fluid">
         <div class="row breadcrumbs content-page"> <!-- Breadcrumbs -->
             <div class="col-xs-12 hidden-md-up">Über uns > Philosophie</div>
-            <div class="col-md-12 hidden-xs-down"></div>
+            <div class="col-md-12 test hidden-xs-down"></div>
         </div>
         <div class = "row content-page backgroundHeader"> <!-- Überschrift -->
             <div class="col-xs-12 hidden-md-up">
