@@ -3,6 +3,7 @@ body{
     top:0;
     left:0;
     font-family: "MyriadPro-Regular";
+    overflow: hidden;
 }
 /********Header**********/
 .header{
@@ -411,6 +412,7 @@ a, a:hover{
     }
     .searchBar{
         margin-top: -47px;
+        margin-bottom: 47px;
     }
     .fa-search-second{
         display: none !important;
@@ -727,8 +729,6 @@ a, a:hover{
     border-bottom: 1px solid black;
     height: 70px;
     display: none;
-    margin-bottom: 47px;
-    display:none;
 }
 
 input.search_input{
