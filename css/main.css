@@ -395,6 +395,7 @@ a, a:hover{
 @media (min-width: 1000px) {
     .display {
         display: flex;
+        margin-bottom: -89px;
     }
     .display_footer{
         display: flex;
@@ -417,6 +418,10 @@ a, a:hover{
     .searchBar_icons{
         display:flex;
         justify-content: space-around !Important;
+    }
+    .content {
+        /*margin-top: -89px;*/
+        z-index: -10;
     }
 }
 
@@ -471,6 +476,9 @@ a, a:hover{
     /*display: inline-block;*/
     display: flex;
     justify-content: center;
+    padding-top: 26px;
+    padding-bottom: 29px;
+    margin-bottom: 3px;
 }
 
 .dropdown-content {
