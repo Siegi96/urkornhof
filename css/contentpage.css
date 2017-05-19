@@ -324,7 +324,7 @@ body {
     color: #fbba00;
 }
 
-.cat {
+.catXS {
     width: 28%;
     height: auto;
     background-color: #fbba00;
@@ -334,7 +334,17 @@ body {
     padding: 5px;
 }
 
-.cat > img {
+.catXS {
+    width: 28%;
+    height: auto;
+    background-color: #fbba00;
+    text-align: center;
+    float: left;
+    margin: 2.6%;
+    padding: 5px;
+}
+
+.cat > img, .catXS > img {
     width: 84%;
     height: auto;
     margin: 8%;
