@@ -87,11 +87,3 @@ $('.search').click(Search_bar);
 
 $('.fa-times-circle').click(removeSearch);
 
-
-/*$(".menu_display").hover(function(){
-    $(this).find("ul").slideDown();
-    $(this).removeClass("col-md-2");
-}, function(){
-    $(this).find("ul").hide();
-    $(this).addClass("col-md-2");
-});*/
