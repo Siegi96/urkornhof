@@ -209,7 +209,57 @@
     <!--Content-->
 
     <div class="row content contentmargin searching">
+        <div class="row desktopSearch">
+            <div class="col-md-12 hidden-sm-down">
+            <i class="fa fa-caret-right" aria-hidden="true" id="searchTriangle"></i>
+            <div class = "row newsDesktop" id="searchBarDesktop">
+                <div class="col-md-3 hidden-sm-down">
+                    <form action="news.html">
+                        <label>
+                            <select name="top5" size="1">
+                                <option value="" disabled selected>Thema</option>
+                                <option>Desktop</option>
+                                <option>asdf</option>
+                                <option>asdfits</option>
+                                <option>Nasdfen</option>
+                                <option>Maasfdeg</option>
+                            </select>
+                        </label>
+                    </form>
+                </div>
+                <div class="col-md-1 hidden-sm-down">
+                </div>
+                <div class="col-md-3 hidden-sm-down">
+                    <form action="news.html">
+                        <input type="date" name="date" placeholder="Geben Sie ein Datum ein..." class = "search_news">
+                        <!--<label>
+                            <select name="top5" size="1">
+                                <option value="" disabled selected>Datum</option>
+                                <option>Desktop</option>
+                                <option>asdf</option>
+                                <option>asdfits</option>
+                                <option>Nasdfen</option>
+                                <option>Maasfdeg</option>
+                            </select>
+                        </label>-->
+                    </form>
+                </div>
+                <div class="col-md-1 hidden-sm-down">
+                </div>
+                <div class="col-md-3 hidden-xs-down">
+                    <input class="search_news" type="text" name="search" placeholder="Suche..">
+                </div>
+                <div class="col-md-1 hidden-sm-down">
+                </div>
 
+            </div>
+                </div>
+
+
+
+
+
+        </div>
         <div class="row topics content-fluid">
             <div class="col-xs-12 hidden-sm-up">
                 <form action="news.html">
@@ -248,47 +298,6 @@
             <div class="col-xs-12 hidden-sm-up">
                 <input class="search_news" type="text" name="search" placeholder="Suche..">
             </div>
-        </div>
-        <div class = "row newsDesktop">
-            <div class="col-md-3 hidden-sm-down">
-                <form action="news.html">
-                    <label>
-                        <select name="top5" size="1">
-                            <option value="" disabled selected>Thema</option>
-                            <option>Desktop</option>
-                            <option>asdf</option>
-                            <option>asdfits</option>
-                            <option>Nasdfen</option>
-                            <option>Maasfdeg</option>
-                        </select>
-                    </label>
-                </form>
-            </div>
-            <div class="col-md-1 hidden-sm-down">
-            </div>
-            <div class="col-md-3 hidden-sm-down">
-                <form action="news.html">
-                    <input type="date" name="date" placeholder="Geben Sie ein Datum ein..." class = "search_news">
-                    <!--<label>
-                        <select name="top5" size="1">
-                            <option value="" disabled selected>Datum</option>
-                            <option>Desktop</option>
-                            <option>asdf</option>
-                            <option>asdfits</option>
-                            <option>Nasdfen</option>
-                            <option>Maasfdeg</option>
-                        </select>
-                    </label>-->
-                </form>
-            </div>
-            <div class="col-md-1 hidden-sm-down">
-            </div>
-            <div class="col-md-3 hidden-xs-down">
-                <input class="search_news" type="text" name="search" placeholder="Suche..">
-            </div>
-            <div class="col-md-1 hidden-sm-down">
-            </div>
-
         </div>
 
 
@@ -439,5 +448,6 @@
 
 <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="js/code.js"></script>
+<script src="js/content_code.js"></script>
 </body>
 </html>
