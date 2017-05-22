@@ -136,16 +136,16 @@
     flex-direction: column;
     text-align: center;
 }
-
 .col-md-12 .ursaatPicture button{
+
     background-color: #fbba00;
     border: 0;
     margin-right: 46vw;
     font-size: x-large;
 
 }
-
 .col-md-12 .ursaatPicture button:hover{
+
     background-color:white;
     color:#fbba00;
     border: 1px solid #fbba00;
