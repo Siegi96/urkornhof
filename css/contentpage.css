@@ -395,6 +395,6 @@ body {
     margin-top: 5px;
 }
 
-.space {
+.space { /*between header und content IM CONTENT!!!*/
     margin: 20px;
 }
