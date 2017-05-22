@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>News</title>
+    <title>Hofladen</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
@@ -11,7 +12,8 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="font-awesome-4.7.0%202/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/contentpage.css">
-    <link rel="stylesheet" href="css/contentpage_Michi.css">
+    <link rel="stylesheet" href="css/contentPage_Michi.css">
+
 
 </head>
 <body>
@@ -23,16 +25,16 @@
         <div class="header_display col-md-12">
             <div class="col-md-2 logo_header_display"><a href="index.html"><img class="Logo_display" src="media/logo_urkornhof.png" alt="Logo-Urkornhof"/></a></div>
             <div class="col-md-1 menu_display menu_shop"><a href="#">Shop</a></div>
-            <div class="col-md-2 menu_display menu_about dropdown">
+            <div class="col-md-2 actual menu_display menu_about dropdown">
                 <a href="hofladen.html">Über Uns</a>
                 <div class="dropdown-content">
                     <a href="hofladen.html">Hofladen</a>
                     <a href="philosophie.html">Unsere Philosophie</a>
                     <a href="kooperationen.html">Kooperation</a>
-                    <a href="sponsoring.html">Sponsering</a>
+                    <a href="sponsoring.html">Sponsoring</a>
                 </div>
             </div>
-            <div class="col-md-1 actual menu_display menu_news dropdown">
+            <div class="col-md-1  menu_display menu_news dropdown">
                 <a href="news.html">News</a>
                 <div class="dropdown-content">
                     <a href="news.html">Neuigkeiten</a>
@@ -131,7 +133,7 @@
                     <a href="kooperationen.html" class="col-xs-12 second_menu_point">Kooperation</a>
                 </div>
                 <div class="row">
-                    <a href="sponsering" class="col-xs-12 second_menu_point">Sponsering</a>
+                    <a href="sponsoring.html" class="col-xs-12 second_menu_point">Sponsering</a>
                 </div>
             </div>
             <!-----------News------------->
@@ -184,224 +186,228 @@
         </div>
     </div>
 
-
-    <div class="row content content-fluid">
+    <div class="row content">
         <div class="row breadcrumbs content-page"> <!-- Breadcrumbs -->
-            <div class="col-xs-12 hidden-md-up">News > Neuigkeiten</div>
-            <div class="col-md-12 test hidden-xs-down"></div>
+            <!--div class="col-xs-12 hidden-md-up hidden-sm-up">Über uns > Hofladen</div>
+            <div class="col-sm-12 hidden-md-up hidden-xs-down">Über uns > Hofladen</div-->
+            <div class="breadcrumbsMedia">News > Neuigkeiten</div>
+            <!--div class="col-md-12 test hidden-xs-down hidden-sm-down"></div-->
         </div>
         <div class = "row content-page backgroundHeader"> <!-- Überschrift -->
             <div class="col-xs-12 hidden-md-up">
                 <div class="contentHeaderXS">
-                    <h1 class="h1XS">N<span class="News_header_distance">ews</span></h1>
+                    <h1 class="h1XS">News</h1>
                     <div class="dreieckXS"></div>
                 </div>
             </div>
-            <div class="col-md-12 hidden-xs-down">
-                <div class="contentHeaderXS">
-                    <h1 class="h1MD">N<span class="News_header_distance">ews</span></h1>
-                    <div class="dreieckXS"></div>
+
+
+            <div class="col-md-6 hidden-xs-down hidden-sm-down">
+                <div class="contentHeaderMD">
+                    <h1 class="h1MD">News</h1>
+                    <div class="dreieckMD"></div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <!--Content-->
-
-    <div class="row content contentmargin searching">
-        <div class="row desktopSearch">
-            <div class="col-md-12 hidden-sm-down">
-            <i class="fa fa-caret-right" aria-hidden="true" id="searchTriangle"></i>
-            <div class = "row newsDesktop" id="searchBarDesktop">
-                <div class="col-md-3 hidden-sm-down">
-                    <form action="news.html">
-                        <label>
-                            <select name="top5" size="1">
-                                <option value="" disabled selected>Thema</option>
-                                <option>Desktop</option>
-                                <option>asdf</option>
-                                <option>asdfits</option>
-                                <option>Nasdfen</option>
-                                <option>Maasfdeg</option>
-                            </select>
-                        </label>
-                    </form>
-                </div>
-                <div class="col-md-1 hidden-sm-down">
-                </div>
-                <div class="col-md-3 hidden-sm-down">
-                    <form action="news.html">
-                        <input type="date" name="date" placeholder="Geben Sie ein Datum ein..." class = "search_news">
-                        <!--<label>
-                            <select name="top5" size="1">
-                                <option value="" disabled selected>Datum</option>
-                                <option>Desktop</option>
-                                <option>asdf</option>
-                                <option>asdfits</option>
-                                <option>Nasdfen</option>
-                                <option>Maasfdeg</option>
-                            </select>
-                        </label>-->
-                    </form>
-                </div>
-                <div class="col-md-1 hidden-sm-down">
-                </div>
-                <div class="col-md-3 hidden-xs-down">
-                    <input class="search_news" type="text" name="search" placeholder="Suche..">
-                </div>
-                <div class="col-md-1 hidden-sm-down">
-                </div>
-
             </div>
+
+            <div class="row content contentmargin searching">
+
+                <div class="row desktopSearch">
+                    <div class="col-md-12 hidden-sm-down">
+                        <i class="fa fa-search-plus" aria-hidden="true" id="searchTriangle"></i>
+                        <div class = "row newsDesktop" id="searchBarDesktop">
+                            <div class="col-md-3 hidden-sm-down">
+                                <form action="news.html">
+                                    <label>
+                                        <select name="top5" size="1">
+                                            <option value="" disabled selected>Thema</option>
+                                            <option>Desktop</option>
+                                            <option>asdf</option>
+                                            <option>asdfits</option>
+                                            <option>Nasdfen</option>
+                                            <option>Maasfdeg</option>
+                                        </select>
+                                    </label>
+                                </form>
+                            </div>
+                            <div class="col-md-1 hidden-sm-down">
+                            </div>
+                            <div class="col-md-3 hidden-sm-down">
+                                <form action="news.html">
+                                    <input type="date" name="date" placeholder="Geben Sie ein Datum ein..." class = "search_news">
+                                    <!--<label>
+                                        <select name="top5" size="1">
+                                            <option value="" disabled selected>Datum</option>
+                                            <option>Desktop</option>
+                                            <option>asdf</option>
+                                            <option>asdfits</option>
+                                            <option>Nasdfen</option>
+                                            <option>Maasfdeg</option>
+                                        </select>
+                                    </label>-->
+                                </form>
+                            </div>
+                            <div class="col-md-1 hidden-sm-down">
+                            </div>
+                            <div class="col-md-3 hidden-xs-down">
+                                <input class="search_news" type="text" name="search" placeholder="Suche..">
+                            </div>
+                            <div class="col-md-1 hidden-sm-down">
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
 
-
-
-
-
-        </div>
-        <div class="row topics content-fluid">
-            <div class="col-xs-12 hidden-sm-up">
-                <form action="news.html">
-                    <label>
-                        <select name="top5" size="1" class="search_news>
+                <!--MobileFilter-->
+                <div class="row topics content-fluid">
+                    <div class="col-xs-12 hidden-sm-up">
+                        <form action="news.html">
+                            <label>
+                                <select name="top5" size="1" class="search_news>
                             <option value="" disabled selected>Thema</option>
-                        <option>Produkte</option>
-                        <option>Events</option>
-                        <option>Allgemeines</option>
-                        <option>Sponsoring</option>
-                        </select>
-                    </label>
-                </form>
-            </div>
-        </div>
-        <div class="row date">
-            <div class="col-xs-12 hidden-sm-up">
-                <form action="news.html">
-                    <input type="date" name="date" placeholder="Geben Sie ein Datum ein..." class = "search_news">
-                    <!--
-                    <label>
-                        <select name="top5" size="1" class="search_news">
-                            <option value="" disabled selected>Datum</option>
-                            <option>xasdffasdf</option>
-                            <option>asdf</option>
-                            <option>asdfits</option>
-                            <option>Nasdfen</option>
-                            <option>Maasfdeg</option>
-                        </select>
-                    </label>
-                    -->
-                </form>
-            </div>
-        </div>
-        <div class="row newssearch">
-            <div class="col-xs-12 hidden-sm-up">
-                <input class="search_news" type="text" name="search" placeholder="Suche..">
-            </div>
-        </div>
-
-
-        <div class ="row news">
-            <div class="col-xs-12 hidden-sm-up">
-                <div class="newsWrapper">
-                    <img src="media/Urkornhof-Team.jpg"/>
-                    <div>
-                        <h1>Neues Imagevideo</h1>
-                        <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                                <option>Produkte</option>
+                                <option>Events</option>
+                                <option>Allgemeines</option>
+                                <option>Sponsoring</option>
+                                </select>
+                            </label>
+                        </form>
                     </div>
-                    <a href="#">zum Artikel</a>
                 </div>
-            </div>
-
-        </div>
-
-        <div class ="row news">
-            <div class="col-xs-12 hidden-sm-up">
-                <div class="newsWrapper">
-                    <img src="media/Urkornhof-Team.jpg"/>
-                    <div>
-                        <h1>Neues Imagevideo</h1>
-                        <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                <div class="row date">
+                    <div class="col-xs-12 hidden-sm-up">
+                        <form action="news.html">
+                            <input type="date" name="date" placeholder="Geben Sie ein Datum ein..." class = "search_news">
+                            <!--
+                            <label>
+                                <select name="top5" size="1" class="search_news">
+                                    <option value="" disabled selected>Datum</option>
+                                    <option>xasdffasdf</option>
+                                    <option>asdf</option>
+                                    <option>asdfits</option>
+                                    <option>Nasdfen</option>
+                                    <option>Maasfdeg</option>
+                                </select>
+                            </label>
+                            -->
+                        </form>
                     </div>
-                    <a href="#">zum Artikel</a>
+                </div>
+                <div class="row newssearch">
+                    <div class="col-xs-12 hidden-sm-up">
+                        <input class="search_news" type="text" name="search" placeholder="Suche..">
+                    </div>
+                </div>
+
+                <!--MobileNews-->
+                <div class ="row news">
+                    <div class="col-xs-12 hidden-sm-up">
+                        <div class="newsWrapper">
+                            <img src="media/Urkornhof-Team.jpg"/>
+                            <div>
+                                <h1>Neues Imagevideo</h1>
+                                <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                            </div>
+                            <a href="#">zum Artikel</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class ="row news">
+                    <div class="col-xs-12 hidden-sm-up">
+                        <div class="newsWrapper">
+                            <img src="media/Urkornhof-Team.jpg"/>
+                            <div>
+                                <h1>Neues Imagevideo</h1>
+                                <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                            </div>
+                            <a href="#">zum Artikel</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <div class="row desktopNews">
-        <div class="col-md-4 hidden-sm-down">
-            <div class="newsWrapper">
-                <img src="media/Urkornhof-Team.jpg"/>
-                <div>
-                    <h1>Neues Imagevideo</h1>
-                    <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+            <!--Desktop News-->
+
+
+
+            <div class="row desktopNews">
+                <div class="col-md-4 hidden-sm-down">
+                    <div class="newsWrapper">
+                        <img src="media/Urkornhof-Team.jpg"/>
+                        <div>
+                            <h1>Neues Imagevideo</h1>
+                            <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                        </div>
+                        <a href="#">zum Artikel</a>
+                    </div>
                 </div>
-                <a href="#">zum Artikel</a>
-            </div>
-        </div>
 
-        <div class="col-md-4 hidden-sm-down">
-            <div class="newsWrapper">
-                <img src="media/Urkornhof-Team.jpg"/>
-                <div>
-                    <h1>Neues Imagevideo</h1>
-                    <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                <div class="col-md-4 hidden-sm-down">
+                    <div class="newsWrapper">
+                        <img src="media/Urkornhof-Team.jpg"/>
+                        <div>
+                            <h1>Neues Imagevideo</h1>
+                            <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                        </div>
+                        <a href="#">zum Artikel</a>
+                    </div>
                 </div>
-                <a href="#">zum Artikel</a>
-            </div>
-        </div>
-        <div class="col-md-4 hidden-sm-down">
-            <div class="newsWrapper">
-                <img src="media/Urkornhof-Team.jpg"/>
-                <div>
-                    <h1>Neues Imagevideo</h1>
-                    <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                <div class="col-md-4 hidden-sm-down">
+                    <div class="newsWrapper">
+                        <img src="media/Urkornhof-Team.jpg"/>
+                        <div>
+                            <h1>Neues Imagevideo</h1>
+                            <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                        </div>
+                        <a href="#">zum Artikel</a>
+                    </div>
                 </div>
-                <a href="#">zum Artikel</a>
             </div>
-        </div>
-    </div>
 
-    <div class = "placeholder"></div>
+            <div class = "placeholder"></div>
 
-    <div class="row desktopNews">
-        <div class="col-md-4 hidden-sm-down">
-            <div class="newsWrapper">
-                <img src="media/Urkornhof-Team.jpg"/>
-                <div>
-                    <h1>Neues Imagevideo</h1>
-                    <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+            <div class="row desktopNews">
+                <div class="col-md-4 hidden-sm-down">
+                    <div class="newsWrapper">
+                        <img src="media/Urkornhof-Team.jpg"/>
+                        <div>
+                            <h1>Neues Imagevideo</h1>
+                            <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                        </div>
+                        <a href="#">zum Artikel</a>
+                    </div>
                 </div>
-                <a href="#">zum Artikel</a>
-            </div>
-        </div>
 
-        <div class="col-md-4 hidden-sm-down">
-            <div class="newsWrapper">
-                <img src="media/Urkornhof-Team.jpg"/>
-                <div>
-                    <h1>Neues Imagevideo</h1>
-                    <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                <div class="col-md-4 hidden-sm-down">
+                    <div class="newsWrapper">
+                        <img src="media/Urkornhof-Team.jpg"/>
+                        <div>
+                            <h1>Neues Imagevideo</h1>
+                            <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                        </div>
+                        <a href="#">zum Artikel</a>
+                    </div>
                 </div>
-                <a href="#">zum Artikel</a>
-            </div>
-        </div>
-        <div class="col-md-4 hidden-sm-down">
-            <div class="newsWrapper">
-                <img src="media/Urkornhof-Team.jpg"/>
-                <div>
-                    <h1>Neues Imagevideo</h1>
-                    <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                <div class="col-md-4 hidden-sm-down">
+                    <div class="newsWrapper">
+                        <img src="media/Urkornhof-Team.jpg"/>
+                        <div>
+                            <h1>Neues Imagevideo</h1>
+                            <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                        </div>
+                        <a href="#">zum Artikel</a>
+                    </div>
                 </div>
-                <a href="#">zum Artikel</a>
             </div>
+            <div class = "placeholder"></div>
+
+
         </div>
-    </div>
-    <div class = "placeholder"></div>
 
-
-    <!-- Footer -->
+    <!--Footer-->
     <div class="row footer">
         <div class="col-md-12 lebenskraft">
             <div class="col-xs-12"><span id="Le">Le</span>benskraft pur!</div>
@@ -445,6 +451,8 @@
         </div>
     </div>
 </div>
+
+
 
 <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="js/code.js"></script>
