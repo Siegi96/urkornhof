@@ -73,7 +73,7 @@ body {
     position: absolute;
     bottom: -19px;
     left: 20px;
-    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.05);
+    /*box-shadow: 0 20px 20px rgba(0, 0, 0, 0.05);*/
     z-index: 100;
     transform: rotate(45deg);
 }
@@ -86,7 +86,7 @@ body {
     position: absolute;
     bottom: 45%;
     left:  98%;
-    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.05);
+    /*box-shadow: 0 20px 20px rgba(0, 0, 0, 0.05);*/
     z-index: 200;
     transform: rotate(-45deg);
 }
@@ -111,6 +111,7 @@ body {
 
 .h2XS_background{
     background-color: #fbba00;
+    margin: 10px 0;
 }
 
 @font-face {
@@ -225,7 +226,7 @@ body {
     width: 90%;
     perspective: 1500px; /* Hier wird die Perspektive der gesamten Szene festgelegt. Der Wert hat Auswirkung auf die Verzerrung */
     float: left;
-    margin: 5%;
+    margin: 10% 5% 0 5%;
 }
 
 .dishFirst {
@@ -239,6 +240,7 @@ body {
 .gericht .front {
     /*background: url(flip-front.jpg) 0 0 no-repeat;*/
     background-color: darkred;
+    overflow: hidden;
 }
 
 .gericht .back {
@@ -341,12 +343,12 @@ body {
 }
 
 .catXS {
-    width: 35%;
+    width: 90%;
     height: auto;
     background-color: #fbba00;
     text-align: center;
     float: left;
-    margin: 2.6%;
+    margin: 10% 5% 0 5%;
     padding: 5px;
 }
 
@@ -358,15 +360,15 @@ body {
 
 .cat_link {
     color: white;
-    font-size: 24px;
+    font-size: 2em;
     font-family: BigMisterC, sans-serif;
-    border-bottom: 1px solid white;
+    /*border-bottom: 1px solid white;*/
 }
 .cat_link:hover {
     color: darkred;
     /*text-shadow: 0.5px 0.5px #f9ff9d;*/
     font-family: BigMisterC, sans-serif;
-    border-bottom: 2px solid darkred;
+    /*border-bottom: 2px solid darkred;*/
 }
 
 .catLable {
@@ -378,5 +380,5 @@ body {
     height: 03vh;
     color: #fbba00;
     display: flex;
-    text-align: center;
+    text-align: left;
 }
