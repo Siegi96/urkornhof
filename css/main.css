@@ -501,6 +501,9 @@ a, a:hover{
     border: none !important;
 }
 
+.mobile_footer{
+    width: 110%;
+}
 .instagram{
     border: none !important;
 }
