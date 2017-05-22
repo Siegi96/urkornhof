@@ -123,6 +123,18 @@ body{
 }
 
 
+.footer i{
+    font-size: 1.5em;
+}
+
+.footer{
+    margin-top: 50px;
+}
+.display i, .header i, .social_media_menu_mobile i{ /*neu*/
+    font-size: 1.6em;
+}
+
+
 
 /*Lebenskraft-Font*/
 @font-face {
@@ -164,8 +176,18 @@ body{
 
 .downMenu>div>div{
     border-bottom: 1px solid black;
-    padding: 12px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
 }
+
+.show_second_menu{
+    font-size: 35px;
+}
+.downMenu>div>div:nth-child(1), .downMenu>div>div:nth-child(2), .downMenu>div>div:nth-child(9){
+    padding: 15px;
+}
+
 
 a, a:hover{
     text-decoration: none;
@@ -191,7 +213,7 @@ a, a:hover{
 
 .social_media_menu_mobile{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
@@ -342,6 +364,8 @@ a, a:hover{
 
 .menu_display{
     text-align: center;
+    padding-top: 27px;
+    padding-bottom: 27px
 }
 
 
@@ -463,6 +487,14 @@ a, a:hover{
     border-right: 1px solid white;
     padding: 0px;
     margin:0;
+}
+
+.display_footer div:nth-child(3){ /*neu*/
+    margin-left: 20px;
+}
+
+.display_footer div:nth-child(1), .display_footer div:nth-child(2), .display_footer div:nth-child(3){ /*neu*/
+    font-size: 15px;
 }
 
 .display_footer div:nth-child(1){
@@ -720,7 +752,7 @@ p.opening_hours, .write_message p{
     font-weight:700;
 }
 
-#button-send:hover{
+#button-send:hover, .Shop_btn:hover{
     background-color: white;
     color: #fbba00;
     border: #fbba00 solid 4px;
