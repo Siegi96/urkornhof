@@ -178,7 +178,7 @@ body {
 }
 
 .bold {
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .italic {
@@ -342,7 +342,6 @@ body {
     float: left;
     margin: 2.6%;
     padding: 5px;
-    overflow: hidden;
 }
 
 .catXS {
@@ -353,7 +352,6 @@ body {
     float: left;
     margin: 10% 5% 0 5%;
     padding: 5px;
-    overflow: hidden;
 }
 
 .cat > img, .catXS > img {
@@ -396,18 +394,4 @@ body {
     color: white;
     margin-left: 80%;
     margin-top: 5px;
-}
-
-.warenkorbRezepte {
-    float: right;
-    margin-top: 0px;
-}
-
-.warenkorbRezepteXS {
-    float: left;
-    margin-top: 15px;
-}
-
-.marginTopRezepte {
-    margin-top: 15px;
 }

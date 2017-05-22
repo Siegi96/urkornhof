@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Kontakt</title>
+    <title>Newsletter</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -187,72 +187,53 @@
     <!--Content-->
     <div class="row content">
         <div class="row breadcrumbs content-page"> <!-- Breadcrumbs -->
-            <div class="col-xs-12 hidden-md-up hidden-sm-up">Kontakt</div>
+            <div class="col-xs-12 hidden-md-up hidden-sm-up">News > Newsletter</div>
             <div class="col-md-12 test hidden-xs-down"></div>
         </div>
         <div class = "row content-page backgroundHeader"> <!-- Überschrift -->
             <div class="col-xs-12 hidden-md-up  hidden-sm-up">
                 <div class="contentHeaderXS">
-                    <h1 class="h1XS">Kontakt</h1>
+                    <h1 class="h1XS">Newsletter</h1>
                     <div class="dreieckXS"></div>
                 </div>
             </div>
             <div class="col-md-12 hidden-xs-down">
                 <div class="contentHeaderXS">
-                    <h1 class="h1MD">Kontakt</h1>
+                    <h1 class="h1MD">Newsletter</h1>
                     <div class="dreieckXS"></div>
                 </div>
             </div>
         </div>
         <div class="descriptiontext col-xs-12 col-md-12">
             <p class="col-xs-1 col-md-2"></p>
-            <p class="col-xs-10 col-md-8">Nehmen Sie mit uns Kontakt auf, wir sind gerne für Sie da und beantworten Ihre Fragen.
-                Wir freuen uns auf Ihre Anregungen und Wünsche!</p>
+            <p class="col-xs-10 col-md-8">
+                Hier können Sie sich zu unserem beliebten kostenlosen Newsletter anmelden.
+                Wenn Sie sich zu unserem Newsletter anmelden, erhalten Sie regelmässig Informationen
+                über unsere neuesten Produkte, Aktionen, Vorträge, Back- & Kochworkshops uvm.</p>
             <p class="col-xs-10 col-md-2"></p>
         </div>
-        <div class="col-xs-12 col-md-12 add_width">
-            <div class="col-xs-1 col-md-2"></div>
-            <div class="contact_information col-xs-10 col-md-4">
-                <div class="adress_box col-xs-12 col-md-12">
-                    <p><span class="adress_name">Urkornhof</span> Kammerleithner GmbH</p>
-                    <p>Landwirtschaftliche Urprodukte</p>
-                    <p>Point 11 A-4655 Vorchdorf</p>
-                    <p>Tel: +43 (0)7614 6636-0</p>
-                    <p>Fax: +43 (0)7614 6636-14</p>
-                    <p>E-mail: office@urkornhof.at</p>
-                </div>
 
-                <div class="adress_box col-xs-12 col-md-12">
-                    <p class="opening_hours">Öffnungszeiten</p>
-                    <p>Mo, Mi, Do, Fr 09:00-17:00</p>
-                    <p>Di: 09:00-19:00</p>
-                </div>
-            </div>
-            <div class="google_maps_card col-xs-12 col-md-4">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2669.301842133989!2d13.96586571529635!3d48.00787807921327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4773e54a442588d3%3A0x951f39d2739d07d9!2sPoint+11%2C+4655+Point!5e0!3m2!1sde!2sat!4v1494946527133" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-        </div>
         <div class="write_message col-xs-12 col-md-12">
-            <p class="col-xs-1 col-md-2"></p>
-            <p class="col-xs-10 col-md-8">Schreiben Sie uns eine Nachricht</p>
-            <p class="col-xs-1 col-md-2"></p>
+            <p class="col-xs-0 col-md-2"></p>
+            <p class="col-xs-10 col-md-8">Testen Sie uns! Melden Sie sich noch heute zu unserem Newsletter an!</p>
+            <p class="col-xs-0 col-md-2"></p>
         </div>
         <div class="col-xs-12 col-md-12 form_main">
             <p class="col-xs-1 col-md-2"></p>
             <form class="col-xs-10 col-md-8">
                 <div id="form_div col-xs-10 col-md-8">
                     <form class="form" id="form1">
-
                         <p class="form_name">
-                            <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+                            <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Anrede*" id="anrede" />
                         </p>
-
+                        <p class="form_name">
+                            <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Vorname*" id="vorname" />
+                        </p>
+                        <p class="form_name">
+                            <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nachname*" id="nachname" />
+                        </p>
                         <p class="form_email">
-                            <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
-                        </p>
-
-                        <p class="form_text">
-                            <textarea name="text" class="validate[required,length[6,300]] feedback-input feedback_textarea" id="comment" placeholder="Was möchten Sie uns sagen?"></textarea>
+                            <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email*" />
                         </p>
 
 
