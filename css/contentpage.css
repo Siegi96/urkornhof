@@ -93,7 +93,8 @@ body {
 /*  Unterüberschriften stylen*/
 .h2MD {
     margin-top: 10px;
-    font-weight: 400;
+    /*font-weight: 400;*/
+    font-weight: bold;
     color: #fbba00;
     font-size: 1.8em;
     font-family: BigMisterC, sans-serif;
@@ -102,9 +103,14 @@ body {
 .h2XS {
     margin-top: 10px;
     font-weight: 400;
-    color: #fbba00;
+    /*color: #fbba00;*/
+    color: white;
     font-size: 1.8em;
     font-family: BigMisterC, sans-serif;
+}
+
+.h2XS_background{
+    background-color: #fbba00;
 }
 
 @font-face {
