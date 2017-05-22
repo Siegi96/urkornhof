@@ -86,7 +86,7 @@
     z-index: -3;
 }
 .col-xs-12 .ursaatPicture{
-    background-image: url(../media/Hirse.jpg);
+    background-image: url(../media/cereals3.jpg);
     width: 100%;
     height: 183px;
     color:white;
@@ -122,7 +122,7 @@
 
 /* Ursaat Picture Desktop*/
 .col-md-12 .ursaatPicture{
-    background-image: url(../media/cereals.jpg);
+    background-image: url(../media/cereals3.jpg);
     max-width: 100%;
     height: 500px;
     color:white;
@@ -136,16 +136,16 @@
     flex-direction: column;
     text-align: center;
 }
-
 .col-md-12 .ursaatPicture button{
+
     background-color: #fbba00;
     border: 0;
     margin-right: 46vw;
     font-size: x-large;
 
 }
-
 .col-md-12 .ursaatPicture button:hover{
+
     background-color:white;
     color:#fbba00;
     border: 1px solid #fbba00;
@@ -588,10 +588,44 @@
 .konfiguratorTextDesktop{
  margin: auto 5vw auto 5vw;
     background-color: white;
-
-
 }
 
+.configurator_products{
+    display: none;
+}
+
+.productdescription_configurator img{
+    width: 150px;
+    margin-right: 10px;
+}
+
+.product_dist{
+    margin-top: -20px;
+}
+
+.productdescription_configurator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.configurator_products_header{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.shoppingcart_conf{
+    background-color: #fbba00;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoppingcart_conf i{
+    font-size: 1.5em;
+}
 
 .special {
     margin-left: -15px;

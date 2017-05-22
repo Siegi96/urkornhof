@@ -36,7 +36,7 @@
                 <a href="news.html">News</a>
                 <div class="dropdown-content">
                     <a href="news.html">Neuigkeiten</a>
-                    <a href="news.html">Newsletter</a>
+                    <a href="newsletter_admin.html">Newsletter</a>
                 </div>
             </div>
 
@@ -131,7 +131,7 @@
                     <a href="kooperationen.html" class="col-xs-12 second_menu_point">Kooperation</a>
                 </div>
                 <div class="row">
-                    <a href="sponsering" class="col-xs-12 second_menu_point">Sponsering</a>
+                    <a href="sponsoring.html" class="col-xs-12 second_menu_point">Sponsoring</a>
                 </div>
             </div>
             <!-----------News------------->
@@ -143,10 +143,10 @@
             <!----------Untermenü-------->
             <div class="row second_menu second_menu_News" href="news.html">
                 <div class="row">
-                    <a href="news.html" class="col-xs-12 second_menu_point" href="news.html">Neuigkeiten</a>
+                    <a  class="col-xs-12 second_menu_point" href="news.html">Neuigkeiten</a>
                 </div>
                 <div class="row">
-                    <a class="col-xs-12 second_menu_point" href="news.html">Newsletter</a>
+                    <a class="col-xs-12 second_menu_point" href="newsletter_admin.html">Newsletter</a>
                 </div>
             </div>
             <!--------------Tipps-------------->
@@ -186,8 +186,7 @@
 
     <div class="row content">
         <div class="row breadcrumbs content-page"> <!-- Breadcrumbs -->
-            <div class="col-xs-12 hidden-md-up">Tipps & Tricks > Konfigurator</div>
-            <div class="col-md-12 test hidden-xs-down"></div>
+            <div class="breadcrumbsMedia">Tipps & Tricks > Konfigurator</div>
         </div>
         <div class = "row content-page backgroundHeader"> <!-- Überschrift -->
             <div class="col-xs-12 hidden-md-up">
@@ -246,7 +245,7 @@
                 </div>
 
         </div>
-        <div class="row konfiguratorEingaben">
+            <div class="row konfiguratorEingaben">
             <div class="col-md-12">
                 <h2 class="h2MD">Legen Sie los...</h2>
                 <form action="konfigurator.html">
@@ -269,7 +268,7 @@
                     </label>
 
                     <label>
-                        <select name="top5" size="1">
+                        <select  name="top5" size="1">
                             <option value="" disabled selected>Produktart</option>
                             <option>Pulver</option>
                             <option>Rohstoffe</option>
@@ -290,14 +289,51 @@
                         </select>
                     </label>
 
-                    <input class="search_news" type="text" name="search" placeholder="Geben Sie Ihr Alter ein"/>
-                    <input class="search_news" type="text" name="search" placeholder="Geben Sie Ihr Gewicht ein"/>
-                    <input class="search_news" type="text" name="search" placeholder="Geben Sie Ihr Größe ein"/>
+                    <input class="search_input search_news" type="text" name="search" placeholder="Geben Sie Ihr Alter ein"/>
+                    <input class="search_input search_news" type="text" name="search" placeholder="Geben Sie Ihr Gewicht ein"/>
+                    <input class="search_input search_news" type="text" name="search" placeholder="Geben Sie Ihr Größe ein"/>
 
-                    <button type="button" id="berechnen">Fertig</button>
+                    <button type="button" class="konfigurator_create" id="berechnen">Fertig</button>
 
 
                 </form>
+
+
+            </div>
+        </div>
+
+            <div class="configurator_products row">
+                <div class="col-md-12">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 h2MD">Ihre Produkte, perfekt auf Sie abgestimmt</div>
+
+
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
+                        <div class="productdescription_configurator">
+                            <img src="media/Produktbilder/Produkt2.png"/>
+                            <div>
+                                <div class="product_dist">Erdmandeln<br/>500g, 7,99€</div>
+                                <div class="shoppingcart_conf">
+                                    <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="productdescription_configurator">
+                            <img src="media/Produktbilder/Produkt2.png"/>
+                            <div>
+                                <div class="product_dist">Erdmandeln<br/>500g, 7,99€</div>
+                                <div class="shoppingcart_conf">
+                                    <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     <!--Footer-->
