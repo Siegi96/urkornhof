@@ -452,10 +452,15 @@ a, a:hover{
     }
 }
 
+@media (min-width: 575px){
+    /*.content{
+    margin-top: -50px;
+    }*/
+}
+
 .header_display{
     display: flex;
     align-items: center;
-    /*background-color: white;*/
 }
 
 .header_display>div{
