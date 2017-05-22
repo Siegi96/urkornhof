@@ -409,6 +409,10 @@ a, a:hover{
     .fa-search-display{
         display: none !important;
     }
+
+    .breadcrumbsMedia {
+        display: inherit;
+    }
 }
 
 @media (min-width: 1000px) {
@@ -449,6 +453,10 @@ a, a:hover{
     }
     .test{
         z-index:-10;
+    }
+
+    .breadcrumbsMedia {
+        display: none;
     }
 }
 
