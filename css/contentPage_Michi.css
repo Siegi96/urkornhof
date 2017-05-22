@@ -580,10 +580,44 @@
 .konfiguratorTextDesktop{
  margin: auto 5vw auto 5vw;
     background-color: white;
-
-
 }
 
+.configurator_products{
+    display: none;
+}
+
+.productdescription_configurator img{
+    width: 150px;
+    margin-right: 10px;
+}
+
+.product_dist{
+    margin-top: -20px;
+}
+
+.productdescription_configurator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.configurator_products_header{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.shoppingcart_conf{
+    background-color: #fbba00;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoppingcart_conf i{
+    font-size: 1.5em;
+}
 
 .special {
     margin-left: -15px;

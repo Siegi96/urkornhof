@@ -246,7 +246,7 @@
                 </div>
 
         </div>
-        <div class="row konfiguratorEingaben">
+            <div class="row konfiguratorEingaben">
             <div class="col-md-12">
                 <h2 class="h2MD">Legen Sie los...</h2>
                 <form action="konfigurator.html">
@@ -269,7 +269,7 @@
                     </label>
 
                     <label>
-                        <select name="top5" size="1">
+                        <select  name="top5" size="1">
                             <option value="" disabled selected>Produktart</option>
                             <option>Pulver</option>
                             <option>Rohstoffe</option>
@@ -290,14 +290,51 @@
                         </select>
                     </label>
 
-                    <input class="search_news" type="text" name="search" placeholder="Geben Sie Ihr Alter ein"/>
-                    <input class="search_news" type="text" name="search" placeholder="Geben Sie Ihr Gewicht ein"/>
-                    <input class="search_news" type="text" name="search" placeholder="Geben Sie Ihr Größe ein"/>
+                    <input class="search_input search_news" type="text" name="search" placeholder="Geben Sie Ihr Alter ein"/>
+                    <input class="search_input search_news" type="text" name="search" placeholder="Geben Sie Ihr Gewicht ein"/>
+                    <input class="search_input search_news" type="text" name="search" placeholder="Geben Sie Ihr Größe ein"/>
 
-                    <button type="button" id="berechnen">Fertig</button>
+                    <button type="button" class="konfigurator_create" id="berechnen">Fertig</button>
 
 
                 </form>
+
+
+            </div>
+        </div>
+
+            <div class="configurator_products row">
+                <div class="col-md-12">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 h2MD">Ihre Produkte, perfekt auf Sie abgestimmt</div>
+
+
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
+                        <div class="productdescription_configurator">
+                            <img src="media/Produktbilder/Produkt2.png"/>
+                            <div>
+                                <div class="product_dist">Erdmandeln<br/>500g, 7,99€</div>
+                                <div class="shoppingcart_conf">
+                                    <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="productdescription_configurator">
+                            <img src="media/Produktbilder/Produkt2.png"/>
+                            <div>
+                                <div class="product_dist">Erdmandeln<br/>500g, 7,99€</div>
+                                <div class="shoppingcart_conf">
+                                    <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     <!--Footer-->

@@ -87,3 +87,8 @@ $('.search').click(Search_bar);
 
 $('.fa-times-circle').click(removeSearch);
 
+
+/**********Konfigurator**********/
+$('#berechnen').click(function(){
+    $(".configurator_products").css("display", "inherit");
+});
