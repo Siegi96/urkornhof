@@ -366,3 +366,11 @@ body {
 .catLable {
     margin-bottom: 10px;
 }
+
+
+.breadcrumbs{
+    height: 03vh;
+    color: #fbba00;
+    display: flex;
+    text-align: center;
+}

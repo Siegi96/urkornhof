@@ -1,4 +1,12 @@
-
+/*Lebenskraft-Font*/
+@font-face {
+    font-family: "BigMisterC";
+    src: url('../fonts/Bigmcn__.ttf');
+}
+@font-face {
+    font-family: "MyriadPro-Regular";
+    src: url('../fonts/MyriadPro-Regular.otf');
+}
 
 /*featured Products*/
 .featuredProducts{
