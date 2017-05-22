@@ -292,7 +292,7 @@
 
 /**************************************************************ASdfasdfasDF*****************************/
 
-}.featuredProducts{
+.featuredProducts{
      margin-left: 1vw;
      margin-right: 1vw;
  }
@@ -574,15 +574,28 @@
 .konfiguratorEingaben{
     background-color: white;
     display: flex;
-    padding-top: 50px;
+    margin-top: 20px;
 }
+.konfiguratordesktopwhite{
+    background-color: white;
+    display: flex;
+}
+
+.konfiguratordesktopwhite h2{
+    color: #fbba00;
+    font-size: xx-large;
+}
+
+
+
+
 .konfiguratorEingaben select, .konfiguratorEingaben input{
     background-color: white;
     border: 1px solid black;
     color: #3c3c3c;
-    width: 40vw;
+    width: 60vw;
     height: 35px;
-    margin: 0 5vw 1vh;
+    margin-left: 20vw;
     font-family: "Myriad Pro", "sans-serif";
     font-size: 20px;
     font-weight: 100;
@@ -590,8 +603,7 @@
 }
 
 #berechnen{
-    float:left;
-    width: 200px;
+    width: 60vw;
     border: #fbba00 solid 4px;
     cursor:pointer;
     color: white;
@@ -602,9 +614,10 @@
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    margin-top:0px;
+    margin-top:5px;
     font-weight:700;
-    margin-left: 5vw;
+    margin-left: 20vw;
+    margin-bottom: 10px;
 }
 
 #berechnen:hover{
@@ -641,6 +654,13 @@
     font-weight: 100;
     padding-left: 2vw;
 }
+.konfiguratorTextDesktop{
+ margin: 0 5vw 1vh 5vw;
+    background-color: white;
+
+
+}
+
 
 .special {
     margin-left: -15px;
