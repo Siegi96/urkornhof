@@ -83,7 +83,7 @@
 
 /*Ursaat Picture Mobile*/
 .zPic{
-    z-index: -3;
+    z-index: -11 !important;
 }
 .col-xs-12 .ursaatPicture{
     background-image: url(../media/cereals3.jpg);
