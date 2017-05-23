@@ -26,6 +26,11 @@
     text-align: right;
     z-index: -10;
 }
+
+
+.col-xs-12 .ursaatPicture_XS{
+    height: 200px;
+}
 .col-xs-12 .ursaatText {
     display: flex;
     width: 100%;
@@ -56,6 +61,7 @@
     display: flex;
     align-items: center;
 }
+
 
 
 
@@ -169,7 +175,7 @@
 }
 
 .News_header_distance_smallHeadings{
-    margin-left: -14px;
+    margin-left: -12px;
 }
 
 /********************News**********************/
