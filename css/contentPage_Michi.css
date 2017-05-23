@@ -41,7 +41,6 @@
 .col-xs-12 .ursaatPicture button{
     background-color:#fbba00;
     border: 0;
-    margin-right: 30px;
 }
 
 .col-xs-12 .ursaatPicture h1{
@@ -53,6 +52,13 @@
     left: 50px;
 }
 
+.ursaatText_MD{
+    display: flex;
+    align-items: center;
+}
+
+
+
 /* Ursaat Picture Desktop*/
 .col-md-12 .ursaatPicture{
     background-image: url(../media/cereals3.jpg);
@@ -63,6 +69,7 @@
     text-align: right;
     background-repeat: no-repeat;
 }
+
 .col-md-12 .ursaatText {
     display: flex;
     width: 100%;
@@ -71,7 +78,7 @@
 }
 .col-md-12 .ursaatPicture button{
 
-    margin-left: 44vw;
+
     float:left;
     width: 200px;
     border: #fbba00 solid 4px;
@@ -86,6 +93,9 @@
     transition: all 0.3s;
     font-weight:700;
 
+}
+.ursaatPicture_MD button{
+    margin-left: 0vw;
 }
 .col-md-12 .ursaatPicture button:hover{
 
