@@ -119,9 +119,7 @@
     margin-top:30px;
 }
 .news{
-    padding: 20px 0;
     display: flex;
-    text-align: center;
 }
 
 
@@ -340,7 +338,7 @@
 }
 .products{
 
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
     /*border-bottom: 1px solid #f0b300;*/
 }
 
@@ -370,6 +368,14 @@
 .products a{
 }
 
+.startpage_product_desc{
+    font-size: 25px;
+    color: black;
+}
+.startpage_product_shoppingcart{
+    display: flex;
+    flex-direction: column;
+}
 
 /*FeaturedProducts*/
 
