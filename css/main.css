@@ -51,6 +51,10 @@ body{
     width: 80px;
 }
 
+.logo_header_display{
+    z-index: 100;
+}
+
 .logo_header{
     text-align: center;
 }
