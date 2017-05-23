@@ -85,6 +85,11 @@
 .zPic{
     z-index: -11 !important;
 }
+
+#zumShop{
+    margin-top: -100px;
+}
+
 .col-xs-12 .ursaatPicture{
     background-image: url(../media/cereals3.jpg);
     width: 100%;
@@ -205,7 +210,7 @@
     width: 96%;
     background-color: white;
     text-align: center;
-    padding: 0 6vw 3vh 6vw;
+    padding: 0 5px 3vh 5px;
     margin: auto;
 }
 
@@ -358,6 +363,10 @@
     margin-right: 1vw;
     font-size: 1.2em;
 }
+.seite a:hover{
+    color:#fbba00;
+}
+
 .seite .actual{
     color: #fbba00;
 }
@@ -370,6 +379,7 @@
 .mobileH1{
     color: #fbba00;
     font-size: 30px;
+    font-weight: bold;
 }
 .center{
     text-align: center;
@@ -484,13 +494,6 @@
     width: 96%;
 }
 
-.newsWrapper div{
-    width: 96%;
-    background-color: white;
-    text-align: center;
-    padding: 0 6vw 3vh 6vw;
-    margin: auto;
-}
 
 .newsWrapper h1{
     margin: 0 5px 0;
@@ -502,8 +505,8 @@
 
 .newsDesktopH1 h1{
     color: #fbba00;
-    margin-left: 35px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 
