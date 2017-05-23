@@ -1,7 +1,7 @@
 /**
  * Created by Siegi on 22.05.2017.
  */
-
+/*
 var SearchBarShowed = false;
 var searchTriangle = $("#searchTriangle");
 var searchBarDesktop = $("#searchBarDesktop");
@@ -22,7 +22,7 @@ function showSearchBar() {
         searchTriangle.toggleClass("fa-search-minus fa-search-plus");
         SearchBarShowed=false;
     }
-}
+}*/
 
 
 var SearchBarShowedMobile = false;
