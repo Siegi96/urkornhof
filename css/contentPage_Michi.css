@@ -709,3 +709,12 @@
     margin-left: 2vw;
      margin-bottom: 20px;
 }
+
+
+.newsWrapper a, .downMenu a{
+    font-family: "Myriad Pro";
+}
+
+a{
+    font-family: "Myriad Pro";
+}
