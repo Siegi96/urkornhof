@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hofladen</title>
+    <title>Neuigkeiten</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -263,43 +263,66 @@
                 </div>
 
                 <!--MobileFilter-->
-                <div class="row topics content-fluid">
-                    <div class="col-xs-12 hidden-sm-up">
-                        <form action="news.html">
-                            <label>
-                                <select name="top5" size="1" class="search_news>
+                <div class ="row"></div>
+                <button id="mobileFilterButton" class ="col-xs-12 hidden-sm-up">Filter <i class="fa fa-filter" aria-hidden="true"></i><i class="fa fa-arrow-down" aria-hidden="true" id="filterArrow"></i>
+                </button>
+                </div>
+                <div id="mobilefilter">
+                    <div class="row topics content-fluid">
+                        <div class="col-xs-12 hidden-sm-up">
+                            <form action="news.html">
+                                <label>
+                                    <select name="top5" size="1" class="search_news">
                             <option value="" disabled selected>Thema</option>
-                                <option>Produkte</option>
-                                <option>Events</option>
-                                <option>Allgemeines</option>
-                                <option>Sponsoring</option>
-                                </select>
-                            </label>
-                        </form>
+                                    <option>Produkte</option>
+                                    <option>Events</option>
+                                    <option>Allgemeines</option>
+                                    <option>Sponsoring</option>
+                                    </select>
+                                </label>
+                            </form>
+                        </div>
                     </div>
-                </div>
-                <div class="row date">
-                    <div class="col-xs-12 hidden-sm-up">
-                        <form action="news.html">
-                            <input type="date" name="date" placeholder="Geben Sie ein Datum ein..." class = "search_news">
-                            <!--
-                            <label>
-                                <select name="top5" size="1" class="search_news">
-                                    <option value="" disabled selected>Datum</option>
-                                    <option>xasdffasdf</option>
-                                    <option>asdf</option>
-                                    <option>asdfits</option>
-                                    <option>Nasdfen</option>
-                                    <option>Maasfdeg</option>
-                                </select>
-                            </label>
-                            -->
-                        </form>
+                    <div class="row date">
+                        <div class="col-xs-12 hidden-sm-up">
+                            <form action="news.html">
+                                <input type="date" name="date" placeholder="Geben Sie ein Datum ein..." class = "search_news">
+                                <!--
+                                <label>
+                                    <select name="top5" size="1" class="search_news">
+                                        <option value="" disabled selected>Datum</option>
+                                        <option>xasdffasdf</option>
+                                        <option>asdf</option>
+                                        <option>asdfits</option>
+                                        <option>Nasdfen</option>
+                                        <option>Maasfdeg</option>
+                                    </select>
+                                </label>
+                                -->
+                            </form>
+                        </div>
                     </div>
+                    <div class="row newssearch">
+                        <div class="col-xs-12 hidden-sm-up">
+                            <input class="search_news" type="text" name="search" placeholder="Suche..">
+                        </div>
+                    </div>
+
                 </div>
-                <div class="row newssearch">
-                    <div class="col-xs-12 hidden-sm-up">
-                        <input class="search_news" type="text" name="search" placeholder="Suche..">
+
+                <!--Desktop-TopNews-->
+                <div class = "row content-page backgroundHeader"> <!-- Überschrift -->
+
+                    <div class="col-md-6 hidden-xs-down hidden-sm-down">
+                        <div class="contentHeaderMD">
+                            <h1 class="h1MD">Neues Imagevideo</h1>
+                            <p>Im Rahmen des Studienprojektes erstellte uns KWM-StudentInnen ein neues Imagevideo. Im Rahmen des Studienprojektes erstellte uns KWM-StudentInnen ein neues Imagevideo.Im Rahmen des Studienprojektes erstellte uns KWM-StudentInnen ein neues Imagevideo.Im Rahmen des Studienprojektes erstellte uns KWM-StudentInnen ein neues Imagevideo. </p>
+
+                            <div class="dreieckMD"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 hidden-xs-down hidden-sm-down">
+                        <img src="media/Urkornhof-Team.jpg" alt="Hofladen" class="headerBilderMD"/>
                     </div>
                 </div>
 
@@ -405,6 +428,13 @@
                     </div>
                 </div>
             </div>
+            <br/>
+            <div class="row seite">
+                <div class="col-xs-12 col-md-12">
+                    Seite <a href="news.html" class="actual">1</a> <a href="news1.html">2</a> <a href="news2.html">3</a>
+                </div>
+            </div>
+
             <div class = "placeholder"></div>
 
 

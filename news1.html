@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Neuigkeiten 1</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0%202/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/contentpage.css">
+    <link rel="stylesheet" href="css/contentPage_Michi.css">
+
+
+</head>
+<body>
+<div class="container-fluid">
+    <!--Header desplay-->
+    <div class="row display">
+        <div class="top_line_header col-md-12"></div>
+        <div class="buttom_line_header col-md-12"></div>
+        <div class="header_display col-md-12">
+            <div class="col-md-2 logo_header_display"><a href="index.html"><img class="Logo_display" src="media/logo_urkornhof.png" alt="Logo-Urkornhof"/></a></div>
+            <div class="col-md-1 menu_display menu_shop"><a href="#">Shop</a></div>
+            <div class="col-md-2 actual menu_display menu_about dropdown">
+                <a href="hofladen.html">Über Uns</a>
+                <div class="dropdown-content">
+                    <a href="hofladen.html">Hofladen</a>
+                    <a href="philosophie.html">Unsere Philosophie</a>
+                    <a href="kooperationen.html">Kooperation</a>
+                    <a href="sponsoring.html">Sponsoring</a>
+                </div>
+            </div>
+            <div class="col-md-1  menu_display menu_news dropdown">
+                <a href="news.html">News</a>
+                <div class="dropdown-content">
+                    <a href="news.html">Neuigkeiten</a>
+                    <a href="newsletter_admin.html">Newsletter</a>
+                </div>
+            </div>
+
+
+            <div class="col-md-2 menu_display menu_tipps dropdown">
+                <a href="konfigurator.html">Tipps & Tricks</a>
+                <div class="dropdown-content">
+                    <!--a href="#">Produkt der Woche</a-->
+                    <a href="konfigurator.html">Konfigurator</a>
+                    <a href="rezepte.html">Rezepte</a>
+                </div>
+            </div>
+            <div class="col-md-1 menu_display menu_kontakt"><a href="kontakt.html">Kontakt</a></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-2 icon_header">
+                <div class="search search_search">
+                    <i class="fa fa-search fa-search-first fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="search_person">
+                    <i class="fa fa-user fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="search_cart">
+                    <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Header mobile-->
+    <div class="row header">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-3 menu" id="nav-icon1">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="col-xs-4 logo_header"><a href="index.html"><img class="Logo" src="media/logo_urkornhof.png" alt="Logo-Urkornhof"/></a></div>
+        <div class="col-xs-4 icon_header">
+            <div class="shoppingcart">
+                <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+                <!--<img src="media/002-shopping-cart.png" alt="Shopping Cart">-->
+            </div>
+            <div class="search">
+                <!--<img src="media/005-magnifying-glass.png" alt="Search">-->
+                <i class="fa fa-search fa-search-first fa-2x" aria-hidden="true"></i>
+            </div>
+            <!--<i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-search fa-search-first fa-2x" aria-hidden="true"></i>-->
+        </div>
+    </div>
+
+    <!--SearchBar-->
+    <div class="searchBar row">
+        <div class="col-xs-2 searchBar_icons">
+            <i class="fa fa-search fa-search-second fa-2x" aria-hidden="true"></i>
+        </div>
+        <input class="search_input col-xs-7" placeholder="Search" type=search>
+        <div class="col-xs-2 searchBar_icons">
+            <i class="fa fa-search fa-search-display  fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-times-circle  fa-2x" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    <!--Menu-->
+    <div class="row downMenu">
+        <div class="col-xs-12">
+            <!-- <i class="fa fa-times" action="closeMenu"></i>-->
+            <div class="row">
+                <div class="col-xs-2"></div>
+                <div class="col-xs-8 menu_header menu_point">Menü</div>
+                <div class="col-xs-2"></div>
+            </div>
+            <div class="row">
+                <a class="col-xs-2"></a>
+                <a class="col-xs-8 menu_point">Shop</a>
+                <a class="col-xs-2"></a>
+            </div>
+            <!---------Über Uns-------->
+            <div class="row">
+                <a class="col-xs-2"></a>
+                <a href="hofladen.html" class="col-xs-8 menu_point">Über Uns</a>
+                <a class="col-xs-2 show_second_menu" id="show_About">+</a>
+            </div>
+            <!--------Untermenü--------->
+            <div class="row second_menu second_menu_About">
+                <div class="row">
+                    <a href="hofladen.html" class="col-xs-12 second_menu_point">Hofladen</a>
+                </div>
+                <div class="row">
+                    <a href="philosophie.html" class="col-xs-12 second_menu_point">Unsere Philosophie</a>
+                </div>
+                <div class="row">
+                    <a href="kooperationen.html" class="col-xs-12 second_menu_point">Kooperation</a>
+                </div>
+                <div class="row">
+
+                    <a href="sponsoring.html" class="col-xs-12 second_menu_point">Sponsoring</a>
+                </div>
+            </div>
+            <!-----------News------------->
+            <div class="row">
+                <a class="col-xs-2"></a>
+                <a href="news.html" class="col-xs-8 menu_point">News</a>
+                <a class="col-xs-2 show_second_menu" id="show_News">+</a>
+            </div>
+            <!----------Untermenü-------->
+            <div class="row second_menu second_menu_News" href="news.html">
+                <div class="row">
+                    <a class="col-xs-12 second_menu_point" href="news.html">Neuigkeiten</a>
+                </div>
+                <div class="row">
+                    <a class="col-xs-12 second_menu_point" href="newsletter_admin.html">Newsletter</a>
+                </div>
+            </div>
+            <!--------------Tipps-------------->
+            <div class="row">
+                <a class="col-xs-2"></a>
+                <a class="col-xs-8 menu_point" href="konfigurator.html">Tipps&Tricks</a>
+                <a class="col-xs-2 show_second_menu" id="show_Tipps">+</a>
+            </div>
+            <!-----------Untermenü-------------->
+            <div class="row second_menu second_menu_Tipps">
+                <!--div class="row">
+                    <a class="col-xs-12 second_menu_point">Produkt der Woche</a>
+                </div-->
+                <div class="row">
+                    <a href="konfigurator.html" class="col-xs-12 second_menu_point">Konfigurator</a>
+                </div>
+                <div class="row">
+                    <a class="col-xs-12 second_menu_point" href="rezepte.html">Rezepte</a>
+                </div>
+            </div>
+            <!-----------Kontakt----------->
+            <div class="row">
+                <a class="col-xs-2"></a>
+                <a href="kontakt.html" class="col-xs-8 menu_point">Kontakt</a>
+                <a class="col-xs-2"></a>
+            </div>
+            <div class="row">
+                <div class="col-xs-3"></div>
+                <div class="col-xs-6 social_media_menu_mobile">
+                    <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="col-xs-3"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row content">
+        <div class="row breadcrumbs content-page"> <!-- Breadcrumbs -->
+
+            <!--div class="col-xs-12 hidden-md-up hidden-sm-up">Über uns > Hofladen</div>
+            <div class="col-sm-12 hidden-md-up hidden-xs-down">Über uns > Hofladen</div-->
+            <div class="breadcrumbsMedia">News > Neuigkeiten</div>
+            <!--div class="col-md-12 test hidden-xs-down hidden-sm-down"></div-->
+
+        </div>
+        <div class = "row content-page backgroundHeader"> <!-- Überschrift -->
+            <div class="col-xs-12 hidden-md-up">
+                <div class="contentHeaderXS">
+                    <h1 class="h1XS">N<span class="News_header_distance">ews</span></h1>
+                    <div class="dreieckXS"></div>
+                </div>
+            </div>
+
+
+            <div class="col-md-12 hidden-xs-down hidden-sm-down">
+                <div class="contentHeaderXS">
+                    <h1 class="h1MD">N<span class="News_header_distance">ews</span></h1>
+                    <div class="dreieckXS"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row content contentmargin searching">
+
+            <div class="row desktopSearch">
+                <div class="col-md-12 hidden-sm-down">
+                    <i class="fa fa-search-plus" aria-hidden="true" id="searchTriangle"></i>
+                    <div class = "row newsDesktop" id="searchBarDesktop">
+                        <div class="col-md-3 hidden-sm-down">
+                            <form action="news.html">
+                                <label>
+                                    <select name="top5" size="1">
+                                        <option value="" disabled selected>Thema</option>
+                                        <option>Desktop</option>
+                                        <option>asdf</option>
+                                        <option>asdfits</option>
+                                        <option>Nasdfen</option>
+                                        <option>Maasfdeg</option>
+                                    </select>
+                                </label>
+                            </form>
+                        </div>
+                        <div class="col-md-1 hidden-sm-down">
+                        </div>
+                        <div class="col-md-3 hidden-sm-down">
+                            <form action="news.html">
+                                <input type="date" name="date" placeholder="Geben Sie ein Datum ein..." class = "search_news">
+                                <!--<label>
+                                    <select name="top5" size="1">
+                                        <option value="" disabled selected>Datum</option>
+                                        <option>Desktop</option>
+                                        <option>asdf</option>
+                                        <option>asdfits</option>
+                                        <option>Nasdfen</option>
+                                        <option>Maasfdeg</option>
+                                    </select>
+                                </label>-->
+                            </form>
+                        </div>
+                        <div class="col-md-1 hidden-sm-down">
+                        </div>
+                        <div class="col-md-3 hidden-xs-down">
+                            <input class="search_news" type="text" name="search" placeholder="Suche..">
+                        </div>
+                        <div class="col-md-1 hidden-sm-down">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--MobileFilter-->
+            <div class ="row"></div>
+            <button id="mobileFilterButton" class ="col-xs-12 hidden-sm-up">Filter <i class="fa fa-filter" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div id="mobilefilter">
+            <div class="row topics content-fluid">
+                <div class="col-xs-12 hidden-sm-up">
+                    <form action="news.html">
+                        <label>
+                            <select name="top5" size="1" class="search_news">
+                                <option value="" disabled selected>Thema</option>
+                                <option>Produkte</option>
+                                <option>Events</option>
+                                <option>Allgemeines</option>
+                                <option>Sponsoring</option>
+                            </select>
+                        </label>
+                    </form>
+                </div>
+            </div>
+            <div class="row date">
+                <div class="col-xs-12 hidden-sm-up">
+                    <form action="news.html">
+                        <input type="date" name="date" placeholder="Geben Sie ein Datum ein..." class = "search_news">
+                        <!--
+                        <label>
+                            <select name="top5" size="1" class="search_news">
+                                <option value="" disabled selected>Datum</option>
+                                <option>xasdffasdf</option>
+                                <option>asdf</option>
+                                <option>asdfits</option>
+                                <option>Nasdfen</option>
+                                <option>Maasfdeg</option>
+                            </select>
+                        </label>
+                        -->
+                    </form>
+                </div>
+            </div>
+            <div class="row newssearch">
+                <div class="col-xs-12 hidden-sm-up">
+                    <input class="search_news" type="text" name="search" placeholder="Suche..">
+                </div>
+            </div>
+
+        </div>
+
+        <!--MobileNews-->
+        <div class ="row news">
+            <div class="col-xs-12 hidden-sm-up">
+                <div class="newsWrapper">
+                    <img src="media/Urkornhof-Team.jpg"/>
+                    <div>
+                        <h1>Neues Imagevideo</h1>
+                        <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                    </div>
+                    <a href="#">zum Artikel</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class ="row news">
+            <div class="col-xs-12 hidden-sm-up">
+                <div class="newsWrapper">
+                    <img src="media/Urkornhof-Team.jpg"/>
+                    <div>
+                        <h1>Neues Imagevideo</h1>
+                        <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                    </div>
+                    <a href="#">zum Artikel</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Desktop News-->
+
+
+
+    <div class="row desktopNews">
+        <div class="col-md-4 hidden-sm-down">
+            <div class="newsWrapper">
+                <img src="media/Urkornhof-Team.jpg"/>
+                <div>
+                    <h1>Neues Imagevideo</h1>
+                    <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                </div>
+                <a href="#">zum Artikel</a>
+            </div>
+        </div>
+
+        <div class="col-md-4 hidden-sm-down">
+            <div class="newsWrapper">
+                <img src="media/Urkornhof-Team.jpg"/>
+                <div>
+                    <h1>Neues Imagevideo</h1>
+                    <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                </div>
+                <a href="#">zum Artikel</a>
+            </div>
+        </div>
+        <div class="col-md-4 hidden-sm-down">
+            <div class="newsWrapper">
+                <img src="media/Urkornhof-Team.jpg"/>
+                <div>
+                    <h1>Neues Imagevideo</h1>
+                    <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                </div>
+                <a href="#">zum Artikel</a>
+            </div>
+        </div>
+    </div>
+
+    <div class = "placeholder"></div>
+
+    <div class="row desktopNews">
+        <div class="col-md-4 hidden-sm-down">
+            <div class="newsWrapper">
+                <img src="media/Urkornhof-Team.jpg"/>
+                <div>
+                    <h1>Neues Imagevideo</h1>
+                    <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                </div>
+                <a href="#">zum Artikel</a>
+            </div>
+        </div>
+
+        <div class="col-md-4 hidden-sm-down">
+            <div class="newsWrapper">
+                <img src="media/Urkornhof-Team.jpg"/>
+                <div>
+                    <h1>Neues Imagevideo</h1>
+                    <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                </div>
+                <a href="#">zum Artikel</a>
+            </div>
+        </div>
+        <div class="col-md-4 hidden-sm-down">
+            <div class="newsWrapper">
+                <img src="media/Urkornhof-Team.jpg"/>
+                <div>
+                    <h1>Neues Imagevideo</h1>
+                    <p>Im Rahmen des Studienprojektes  erstellte uns KWM-StudentInnen ein neues Imagevideo.</p>
+                </div>
+                <a href="#">zum Artikel</a>
+            </div>
+        </div>
+    </div>
+
+    <br/>
+
+
+    <div class="row seite">
+        <div class="col-xs-12 col-md-12">
+            Seite <a href="news.html">1</a> <a href="news1.html" class="actual">2</a> <a href="news2.html">3</a>
+        </div>
+    </div>
+
+    <div class = "placeholder"></div>
+
+
+</div>
+
+<!--Footer-->
+<div class="row footer">
+    <div class="col-md-12 lebenskraft">
+        <div class="col-xs-12"><span id="Le">Le</span>benskraft pur!</div>
+    </div>
+    <div class="row links mobile_footer">
+        <div class="col-xs-12 first">
+            <div class="col-xs-4">AGB</div>
+            <div class="col-xs-4">Impressum</div>
+            <div class="col-xs-4">B2B</div>
+        </div>
+        <!--div class="col-xs-12 second">
+            <div class="col-xs-4">Kontakt</div>
+            <div class="col-xs-4">Impressum</div>
+            <div class="col-xs-4">B2B</div>
+        </div-->
+        <div class="col-xs-12 socialMedia">
+            <div class="col-xs-4"></div>
+            <div class="col-xs-4">
+                <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+            </div>
+            <div class="col-xs-4"></div>
+        </div>
+    </div>
+    <div class="display_footer display_first links col-md-12">
+        <div class="col-md-1">AGB</div>
+        <div class="col-md-1">B2B</div>
+        <div class="col-md-1">Impressum</div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3 social_Media_display">
+            <div class="facebook">
+                <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+            </div>
+            <div class="instagram">
+                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2"></div>
+        <div class="col-md-1"></div>
+    </div>
+</div>
+</div>
+
+
+
+<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="js/code.js"></script>
+<script src="js/content_code.js"></script>
+</body>
+</html>

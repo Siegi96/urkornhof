@@ -749,6 +749,7 @@ p.opening_hours, .write_message p{
     background-color:white;
 }
 
+
 #button-send{
 
     float:left;
@@ -773,3 +774,4 @@ p.opening_hours, .write_message p{
     border: #fbba00 solid 4px;
 
 }
+
