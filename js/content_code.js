@@ -32,16 +32,16 @@ var mobilefilter = $("#mobilefilter");
 mobilFilterButton.on( "click", showMobileSearchBar );
 function showMobileSearchBar() {
     if(!SearchBarShowedMobile){
-        mobilefilter.css("display", "inherit");
-        mobilefilter.css("margin-bottom", "65");
+        mobilefilter.css("opacity", "1");
+        mobilefilter.css("margin-bottom", "0px");
         $("#filterArrow").toggleClass("fa-arrow-down fa-arrow-up");
 
 
         SearchBarShowedMobile=true;
     }
     else{
-        mobilefilter.css("display", "none");
-        mobilefilter.css("margin-bottom", "0");
+        mobilefilter.css("opacity", "0");
+        mobilefilter.css("margin-bottom", "-120px");
         $("#filterArrow").toggleClass("fa-arrow-up fa-arrow-down");
         SearchBarShowedMobile=false;
     }
