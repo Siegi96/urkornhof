@@ -51,6 +51,10 @@ body{
     width: 80px;
 }
 
+.logo_header_display{
+    z-index: 100;
+}
+
 .logo_header{
     text-align: center;
 }
@@ -772,6 +776,7 @@ p.opening_hours, .write_message p{
     background-color: white;
     color: #fbba00;
     border: #fbba00 solid 4px;
-
 }
+
+
 

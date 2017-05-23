@@ -162,7 +162,7 @@
 }
 .col-md-12 .ursaatPicture button:hover{
 
-    background-color: white;
+    background-color: transparent;
     color: #fbba00;
     border: #fbba00 solid 4px;
 }
@@ -747,4 +747,3 @@
     margin-left: 2vw;
      margin-bottom: 20px;
 }
-
