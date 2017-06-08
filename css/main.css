@@ -655,9 +655,6 @@ input.search_input:focus{
     margin-top: 35px !important;
     margin:auto;
 }
-.descriptiontext{
-    margin-top: 30px;
-}
 
 .descriptiontext p{
     text-align: justify;
