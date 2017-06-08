@@ -197,7 +197,7 @@
     width: 90vw;
     height: 35px;
     margin: 0 5vw 1vh 5vw;
-    font-family: "Myriad Pro", "sans-serif";
+    font-family: "MyriadPro-Regular", "sans-serif";
     font-size: 20px;
     font-weight: 100;
     padding-left: 2vw;
@@ -230,7 +230,7 @@
     color: black;
     width: 21vw;
     height: 50px;
-    font-family: "Myriad Pro", "sans-serif";
+    font-family: "MyriadPro-Regular", "sans-serif";
     font-size: 20px;
     font-weight: 100;
     padding: 5px 0 5px 2vw;
@@ -243,7 +243,7 @@
     border: 1px solid #fbba00;
     width: 21vw;
     height: 50px;
-    font-family: "Myriad Pro", "sans-serif";
+    font-family: "MyriadPro-Regular", "sans-serif";
     font-size: 20px;
     font-weight: 100;
     padding: 5px 0 5px 2vw;
@@ -333,7 +333,7 @@
     border: 1px solid black;
     color: #3c3c3c;
     height: 35px;
-    font-family: "Myriad Pro", "sans-serif";
+    font-family: "MyriadPro-Regular", "sans-serif";
     font-size: 20px;
     font-weight: 100;
     padding-left: 2vw;
@@ -486,7 +486,7 @@
     width: 90vw;
     height: 35px;
     margin: 0 5vw 1vh 5vw;
-    font-family: "Myriad Pro", "sans-serif";
+    font-family: "MyriadPro-Regular", "sans-serif";
     font-size: 20px;
     font-weight: 100;
     padding-left: 2vw;
@@ -507,7 +507,7 @@
     color: black;
     width: 21vw;
     height: 50px;
-    font-family: "Myriad Pro", "sans-serif";
+    font-family: "MyriadPro-Regular", "sans-serif";
     font-size: 20px;
     font-weight: 100;
     padding: 5px 0 5px 2vw;
@@ -522,7 +522,7 @@
     border: 1px solid #fbba00;
     width: 21vw;
     height: 50px;
-    font-family: "Myriad Pro", "sans-serif";
+    font-family: "MyriadPro-Regular", "sans-serif";
     font-size: 20px;
     font-weight: 100;
     padding: 5px 0 5px 2vw;
@@ -569,7 +569,7 @@
     width: 60vw;
     height: 35px;
     margin-left: 20vw;
-    font-family: "Myriad Pro", "sans-serif";
+    font-family: "MyriadPro-Regular", "sans-serif";
     font-size: 20px;
     font-weight: 100;
     padding-left: 2vw;
@@ -623,7 +623,7 @@
     width: 80vw;
     height: 35px;
     margin: 0 5vw 1vh 5vw;
-    font-family: "Myriad Pro", "sans-serif";
+    font-family: "MyriadPro-Regular", "sans-serif";
     font-size: 20px;
     font-weight: 100;
     padding-left: 2vw;
@@ -712,9 +712,9 @@
 
 
 .newsWrapper a, .downMenu a{
-    font-family: "Myriad Pro";
+    font-family: "MyriadPro-Regular";
 }
 
 a{
-    font-family: "Myriad Pro";
+    font-family: "MyriadPro-Regular";
 }

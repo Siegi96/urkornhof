@@ -12,7 +12,7 @@
 body{
     top:0;
     left:0;
-    font-family: "Myriad Pro";
+    font-family: "MyriadPro-Regular";
     overflow-x: hidden;
 }
 /********Header**********/
@@ -194,7 +194,7 @@ body{
 a, a:hover{
     text-decoration: none;
     color: black;
-    font-family: "Myriad Pro";
+    font-family: "MyriadPro-Regular";
 }
 
 .menu_header{
