@@ -82,6 +82,10 @@ body{
 
 
 /*footer*/
+.footer a{
+    color: white;
+}
+
 .lebenskraft{
     height: 50px;
     background-color: #70a039;
