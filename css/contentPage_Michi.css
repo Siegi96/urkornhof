@@ -182,13 +182,6 @@
 }
 
 /********************News**********************/
-/*breadcrumbs*/
-.breadcrumbs{
-    height: 03vh;
-    color: #fbba00;
-    display: flex;
-    text-align: center;
-}
 /*selectboxes*/
 .searching select, .searching .search_news{
     background-color: #fbfbfb;
@@ -471,13 +464,12 @@
 }
 
 /********************News**********************/
-/*breadcrumbs*/
+/*breadcrumbs
 .breadcrumbs{
     height: 03vh;
     color: #fbba00;
     display: flex;
-    text-align: center;
-}
+}*/
 /*selectboxes*/
 .searching select, .searching .search_news{
     background-color: #fbfbfb;
