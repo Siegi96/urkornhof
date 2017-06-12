@@ -711,6 +711,49 @@ a{
     font-family: "MyriadPro-Regular";
 }
 
+.mobileNewsImg{
+    width: 100%;
+    margin-top:0;
+}
+.mobileNewsText{
+    padding: 13px;
+}
+.backToNews{
+    float: left;
+    width: 200px;
+    border: #fbba00 solid 4px;
+    cursor: pointer;
+    color: white;
+    background-color: #fbba00;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    font-weight: 700;
+    margin: 20px 0 0 13px;
+    text-align: center;
+}
+
+
+
+.desktopNewsAnsicht{
+    width: 80vw;
+    min-width: 400px;
+    max-width: 1300px;
+    margin: auto;
+    background-color: lightgrey;
+}
+.desktopNewsAnsicht a{
+    margin: 20px 0 13px -3px;
+}
+
+.desktopNewsAnsicht img{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
 .impressum_box{
     margin-top: 20px;
 }
