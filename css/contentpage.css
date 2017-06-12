@@ -412,3 +412,8 @@ body {
 .dishUnterpunkte {
     text-align: left;
 }
+
+.umlaut {
+    height: 0.8em;
+    margin-bottom: 10px;
+}
