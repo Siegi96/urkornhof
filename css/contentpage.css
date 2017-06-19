@@ -240,7 +240,7 @@ body {
 
 .gericht .front {
     /*background: url(flip-front.jpg) 0 0 no-repeat;*/
-    background-color: darkred;
+    background-color: #b02b17;
     overflow: hidden;
 }
 
@@ -314,9 +314,9 @@ body {
 }
 
 .link_zum_rezept:hover {
-    color: darkred;
+    color: #b02b17;
     /*text-shadow: 0.5px 0.5px #f9ff9d;*/
-    border-bottom: 2px solid darkred;
+    border-bottom: 2px solid #b02b17;
 }
 
 .zusatz {
@@ -368,10 +368,10 @@ body {
     /*border-bottom: 1px solid white;*/
 }
 .cat_link:hover {
-    color: darkred;
+    color: #b02b17;
     /*text-shadow: 0.5px 0.5px #f9ff9d;*/
     font-family: BigMisterC, sans-serif;
-    /*border-bottom: 2px solid darkred;*/
+    /*border-bottom: 2px solid #b02b17;*/
 }
 
 .catLable {
