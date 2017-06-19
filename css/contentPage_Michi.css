@@ -230,19 +230,7 @@
     margin-bottom: -60px;
 }
 
-.newsDesktop select:focus,.newsDesktop .search_news:focus{
-    background-color: white;
-    display: flex;
-    border: 1px solid #fbba00;
-    width: 21vw;
-    height: 50px;
-    font-family: "MyriadPro-Regular", "sans-serif";
-    font-size: 20px;
-    font-weight: 100;
-    padding: 5px 0 5px 2vw;
-    margin-bottom: -60px;
 
-}
 
 /*Top News*/
 .contentHeaderMD2 p{
@@ -496,7 +484,7 @@
     background-color: white;
     display: flex;
     border: 1px solid black;
-    color: black;
+    color: grey;
     width: 21vw;
     height: 50px;
     font-family: "MyriadPro-Regular", "sans-serif";
@@ -507,20 +495,19 @@
     -webkit-appearance: none;
     border-radius: 0px;
 }
-
-.newsDesktop select:focus,.newsDesktop .search_news:focus{
-    background-color: white;
-    display: flex;
-    border: 1px solid #fbba00;
-    width: 21vw;
-    height: 50px;
-    font-family: "MyriadPro-Regular", "sans-serif";
-    font-size: 20px;
-    font-weight: 100;
-    padding: 5px 0 5px 2vw;
-    margin-bottom: -60px;
-
+.colsearch{
+margin-left: 50px;
+margin-right: -50px;
 }
+{
+    color: black; /* hide the default arrow in ie10 and ie11 */
+}
+    .newsDesktop input:focus, .newsDesktop .search_news:focus .newsDesktop select:focus, .newsDesktop select:focus {
+    border: 1px solid #fbba00;
+    color: #fbba00;
+    box-shadow: 0;
+    outline: none;
+    }
 
 .col-md-3 .newsWrapper{
     width:30vw;
@@ -744,7 +731,6 @@ a{
 
 .desktopNewsAnsicht{
     padding-top: 50px;
-    background-color: #e8e8e8;
 }
 .desktopNewsAnsicht a{
     margin: 20px 0 13px -3px;
