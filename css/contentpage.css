@@ -417,3 +417,21 @@ body {
     height: 0.8em;
     margin-bottom: 10px;
 }
+
+
+.backToRezepte{
+    float: left;
+    min-width: 200px;
+    border: #fbba00 solid 4px;
+    cursor: pointer;
+    color: white;
+    background-color: #fbba00;
+    font-size: 20px;
+    padding: 10px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+}
