@@ -92,3 +92,30 @@ $('.fa-times-circle').click(removeSearch);
 $('#berechnen').click(function(){
     $(".configurator_products").css("display", "inherit");
 });
+
+
+/*********Newsletter Validator***********/
+$('#order_newsletter').click(function(){
+    let anrede = $(".anrede_input").val();
+    let firstname = $(".firstname_input").val();
+    let lastname = $(".lastname_input").val();
+    let email = $(".email_input").val();
+    var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+    let correct = pattern.test(email);
+    if(anrede == ""){
+        $(".anrede_input").attr("placeholder", "Sie müssen eine Anrede eingeben!");
+        $(".anrede_input").addClass("not_valid")
+    }
+    if(firstname == ""){
+        $(".firstname_input").attr("placeholder", "Sie müssen hier Ihren Vornamen eingeben!");
+        $(".firstname_input").addClass("not_valid")
+    }
+    if(lastname == ""){
+        $(".lastname_input").attr("placeholder", "Sie müssen hier Ihren Nachnamen eingeben!");
+        $(".lastname_input").addClass("not_valid")
+    }
+    if(email == "" && !pattern.test(email)){
+        $(".email_input").attr("placeholder", "Sie müssen hier Ihre Email Adresse eingeben!");
+        $(".email_input").addClass("not_valid")
+    }
+});
