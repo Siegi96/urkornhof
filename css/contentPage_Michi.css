@@ -740,10 +740,6 @@ a{
 
 .desktopNewsAnsicht{
     padding-top: 50px;
-    width: 80vw;
-    min-width: 400px;
-    max-width: 1300px;
-    margin: auto;
     background-color: #e8e8e8;
 }
 .desktopNewsAnsicht a{
