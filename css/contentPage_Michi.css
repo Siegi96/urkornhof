@@ -707,6 +707,10 @@
     font-family: "MyriadPro-Regular";
 }
 
+.newsWrapper a:hover {
+    text-shadow: 3px 1px 16px white;
+}
+
 a{
     font-family: "MyriadPro-Regular";
 }
