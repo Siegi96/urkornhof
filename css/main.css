@@ -212,6 +212,9 @@ a, a:hover{
 .facebook, .instagram{
     width: 50px;
 }
+.facebook .fa-facebook:hover, .instagram .fa-instagram:hover{
+    color: black;
+}
 
 .second_menu div{
     text-align: left;
