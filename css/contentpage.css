@@ -112,7 +112,7 @@ body {
 
 .h2XS_background{
     background-color: #fbba00;
-    margin: 10px 0;
+    margin: 20px 0 5px;
 }
 
 @font-face {
@@ -158,6 +158,21 @@ body {
     color: #fbba00;
     font-size: larger;
 }
+.link_zu_partner:visited {
+    color: #fbba00;
+    font-size: larger;
+    text-decoration: none;
+    border: none !important;
+}
+.link_zu_partner::after {
+    text-decoration: none;
+    border: none;
+}
+
+a:visited {
+    text-decoration: none;
+    border: none;
+}
 
 .kooperationen_logo_div {
     margin-left: auto;
@@ -193,6 +208,27 @@ body {
 /* öffnungszeiten text zentrieren */
 .centerMD, .h2MD {
     text-align: center;
+}
+
+.centerDIV {
+    display: flex;
+    justify-content: center;
+}
+
+.widthDIV {
+    max-width: 20vw;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.widthDIV_XS {
+    max-width: 60vw;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.right {
+    float: right;
 }
 
 /* orange einfärben*/
@@ -398,11 +434,19 @@ body {
 }
 
 .space { /*between header und content IM CONTENT!!!*/
+    margin: 20px;
+}
+
+.space2 { /*between header und content IM CONTENT!!!*/
     margin: 35px;
 }
 
 .marginTopRezepte {
     margin-top: 10px;
+}
+
+.marginTopEinkaufswagen {
+    margin-top: 30px;
 }
 
 .warenkorbRezepteXS {
@@ -421,17 +465,40 @@ body {
 
 .backToRezepte{
     float: left;
-    min-width: 200px;
-    border: #fbba00 solid 4px;
+    width: 100px;
+    border: #fbba00 solid 2px;
     cursor: pointer;
     color: white;
     background-color: #fbba00;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 15px;
+    padding: 5px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    font-weight: 700;
-    margin-top: 20px;
+    font-weight: 400;
+    margin-top: 10px;
     text-align: center;
+}
+.backToRezepte2{
+    float: left;
+    width: 100px;
+    border: #fbba00 solid 2px;
+    cursor: pointer;
+    color: white;
+    background-color: #fbba00;
+    font-size: 15px;
+    padding: 5px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.backToRezepte:hover, .backToRezepte2:hover {
+    background-color: white;
+    color: #fbba00;
+    border: #fbba00 solid 2px;
 }
