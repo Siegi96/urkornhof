@@ -47,3 +47,15 @@ function showMobileSearchBar() {
     }
 }
 
+
+$(".arrow").click(function(){
+    console.log("asdf");
+    $(".desktopPics .col-md-2").fadeTo(400, 0);
+    $(".desktopPics .col-md-2").fadeTo(400, 1);
+    /*$(".desktopPics .col-md-2").css("transition", "0.5s");
+    $(".desktopPics .col-md-2").css("opacity", "0.1");
+    $(".desktopPics .col-md-2").css("opacity", "1");*/
+
+
+});
+
