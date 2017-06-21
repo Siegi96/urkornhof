@@ -771,9 +771,7 @@ p.opening_hours, .write_message p{
 }
 
 .button-send:hover, .konfigurator_create:hover{
-    background-color: white;
-    color: #fbba00;
-    border: #fbba00 solid 4px;
+
 }
 
 
