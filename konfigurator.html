@@ -213,19 +213,20 @@
                 </div>
 
         </div>
-            <div class="row konfiguratorEingaben">
-            <div class="col-md-12">
+            <div class="row test">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
                 <h2 class="h2MD">Legen Sie los...</h2>
                 <form action="konfigurator.html">
-                    <label>
+                    <label  class = "feedback-input">
                         <select name="top5" size="1">
                             <option value="" disabled selected>Geschlecht</option>
                             <option>männlich</option>
                             <option>weiblich</option>
                         </select>
                     </label>
-                    <label>
-                        <select name="top5" size="1">
+                    <label class = "feedback-input">
+                        <select name="top5" size="1" >
                             <option value="" disabled selected>Ziel</option>
                             <option>Allgemeines Wohlbefinden</option>
                             <option>Abnehmen</option>
@@ -235,7 +236,7 @@
                         </select>
                     </label>
 
-                    <label>
+                    <label class = "feedback-input">
                         <select  name="top5" size="1">
                             <option value="" disabled selected>Produktart</option>
                             <option>Pulver</option>
@@ -246,8 +247,8 @@
                         </select>
                     </label>
 
-                    <label>
-                        <select name="top5" size="1">
+                    <label class = "feedback-input">
+                        <select name="top5" size="1" >
                             <option value="" disabled selected>Sportlichkeit</option>
                             <option>nicht sportlich</option>
                             <option>wenig sportlich</option>
@@ -257,9 +258,9 @@
                         </select>
                     </label>
 
-                    <input class="search_input search_news" type="text" name="search" placeholder="Geben Sie Ihr Alter ein"/>
-                    <input class="search_input search_news" type="text" name="search" placeholder="Geben Sie Ihr Gewicht in kg ein"/>
-                    <input class="search_input search_news" type="text" name="search" placeholder="Geben Sie Ihr Größe in cm ein"/>
+                    <input class="feedback-input" type="text" name="search" placeholder="Alter"/>
+                    <input class = "feedback-input search_news" type="text" name="search" placeholder="Gewicht in kg"/>
+                    <input class="search_input feedback-input" type="text" name="search" placeholder="Größe in cm"/>
 
                     <button type="button" class="konfigurator_create" id="berechnen">Fertig</button>
 
