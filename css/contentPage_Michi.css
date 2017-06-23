@@ -135,6 +135,7 @@
     width: 90%;
     background-color: #fbba00;
     text-align: center;
+    cursor: pointer;
 
 }
 .newsWrapper a{
@@ -307,19 +308,6 @@
 }
 
 #mobilefilter .search_news{
-    /*margin: 5px 0 5px 1vw;
-    width: 89vw;
-    padding: 0 10px;
-    background-color: white;
-    border: 1px solid black;
-    color: #3c3c3c;
-    height: 35px;
-    font-family: "MyriadPro-Regular", "sans-serif";
-    font-size: 20px;
-    font-weight: 100;
-    padding-left: 2vw;
-    box-shadow: 0;*/
-
     margin: 5px 0 5px 1vw;
     width: 89vw;
     padding: 0 20px;

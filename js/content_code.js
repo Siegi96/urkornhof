@@ -55,7 +55,10 @@ $(".arrow").click(function(){
     /*$(".desktopPics .col-md-2").css("transition", "0.5s");
     $(".desktopPics .col-md-2").css("opacity", "0.1");
     $(".desktopPics .col-md-2").css("opacity", "1");*/
+});
 
-
+$(".newsWrapper").click(function(){
+    console.log("hallo");
+    window.location="newsAnsicht.html";
 });
 
