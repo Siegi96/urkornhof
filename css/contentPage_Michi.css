@@ -774,13 +774,13 @@ a{
     color:#3c3c3c;
     font-weight:500;
     font-size: 18px;
-    border-radius: 0;
+    border-radius: 0 !important;
     line-height: 20px;
     background-color: #fbfbfb;
     padding: 13px 13px 13px 13px;
     margin-bottom: 10px;
     width:100%;
-    margin-left: 0px;
+    margin-left: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -792,10 +792,19 @@ a{
     border-color: #fbba00;
 }
 
-.fa-search{
+.fa-search2{
     font-size: 10px;
 }
 
 .mainform{
     margin: 0 15px 0 15px;
+}
+
+.mainform select {
+    border-radius: 0;
+}
+
+select {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
 }

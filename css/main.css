@@ -706,7 +706,7 @@ p.opening_hours, .write_message p{
     -webkit-border-radius: 7px;
 }
 
-.row input.feedback-input, .feedback_textarea {
+.row input.feedback-input, .feedback_textarea, .feedback-input select {
     color:#3c3c3c;
     font-weight:500;
     font-size: 18px;
